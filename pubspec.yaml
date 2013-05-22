@@ -1,0 +1,11 @@
+name: dart_canvas_gallery
+version: 1.0.0
+author: Nathan Cox
+description: A gallery of canvas animations created with Dart.
+homepage: http://tsuujin.github.io
+dependencies:
+  browser: any
+  js: any
+  web_ui: any
+  game_loop:
+    git: https://github.com/johnmccutchan/game_loop.git
