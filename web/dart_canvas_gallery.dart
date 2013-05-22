@@ -1,8 +1,11 @@
 library dart_canvas_gallery;
 
 import "dart:html";
-import "analog_clock.dart";
-import "rings.dart";
+import "dart:math";
+
+part "gallery_element.dart";
+part "analog_clock.dart";
+part "rings.dart";
 
 AnalogClock clock;
 void main() {

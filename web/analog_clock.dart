@@ -1,6 +1,4 @@
-import "dart:html";
-import "dart:math";
-import "gallery_element.dart";
+part of dart_canvas_gallery;
 
 /**
  * Contains all the information nessisary to draw an analog clock to a given canvas element.

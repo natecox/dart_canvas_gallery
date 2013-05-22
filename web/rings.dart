@@ -1,6 +1,4 @@
-import 'dart:html';
-import 'dart:math';
-import 'gallery_element.dart';
+part of dart_canvas_gallery;
 
 /// A basic [Ring] object.
 ///  
