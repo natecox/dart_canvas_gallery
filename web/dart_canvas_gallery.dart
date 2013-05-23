@@ -7,8 +7,8 @@ part "gallery_element.dart";
 part "analog_clock.dart";
 part "rings.dart";
 
-AnalogClock clock;
+Rings r;
 void main() {
-  clock = new AnalogClock(query("#gallery"));
-  clock.render();
+  r = new Rings(query("#gallery"));
+  r.render();
 }

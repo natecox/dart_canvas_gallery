@@ -23,10 +23,10 @@ class Rings extends GalleryElement {
   final Random rng = new Random();
 
   /// The canvas element our context will derive from.
-  final CanvasElement canvas;
+  CanvasElement canvas;
   
   /// The rendering context we will be drawing to.
-  final CanvasRenderingContext2D context;
+  CanvasRenderingContext2D context;
 
   /// A list of ring objects.
   List<Ring> rings;
@@ -39,10 +39,11 @@ class Rings extends GalleryElement {
   /// ##Arguments:
   /// 1. [canvas]: requires a reference to a canvas element from the dom.
   /// 2. [maxRings]: the maximum number of rings to render.
-  Rings(CanvasElement canvas, [int maxRings = 100])
-      : this.canvas = canvas,
-        this.context = canvas.getContext("2d") {    
+  Rings(this.canvas, [int maxRings = 100]) {    
     // Populate the list of rings with randomized starting positions.
+    canvas.width = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
+    context = canvas.getContext("2d");
     generateRings(maxRings);
   }
   

@@ -658,3 +658,95 @@ build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out
 Total time                                                   --  29 ms
 build.dart finished [473 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 366 ms
+Total time                                                   -- 396 ms
+build.dart finished [1074 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+
+build.dart finished [1299 ms]
+
+---
+build.dart --machine --removed=web\out\dart_canvas_gallery.css --removed=web\out\dart_canvas_gallery.dart --rem...
+
+build.dart finished [736 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [895 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.css
+
+build.dart finished [495 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.html
+
+build.dart finished [502 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.css
+
+build.dart finished [482 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [513 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [516 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [496 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [478 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [492 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [484 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+
+build.dart finished [484 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.css
+
+build.dart finished [1244 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+
+build.dart finished [826 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.dart
+
+build.dart finished [518 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+
+build.dart finished [595 ms]
+
