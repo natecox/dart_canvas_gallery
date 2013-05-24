@@ -14,8 +14,6 @@ part "spinning_square.dart";
 Gallery gallery;
 List<String> galleryItems;
 
-Random rng = new Random();
-
 void main() {
   gallery = new Gallery();
   galleryItems = toObservable(new List<String>());

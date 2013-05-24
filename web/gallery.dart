@@ -10,10 +10,10 @@ part of dart_canvas_gallery;
  */
 
 class Gallery {
+  GameLoopHtml game;
   CanvasElement canvas;
   CanvasRenderingContext2D context;
   Map<String, GalleryElement> elements;
-  GameLoopHtml game;
 
   Gallery() {
     canvas = query('#gCanvas');
@@ -22,8 +22,10 @@ class Gallery {
 
     game = new GameLoopHtml(canvas);
     context = canvas.context2D;
+    
 
     elements = new Map<String, GalleryElement>();
+    
     GalleryElement g;
     g = new Rings(canvas, context);
     elements[g.displayName] = g;
@@ -35,7 +37,7 @@ class Gallery {
 
   void swapTo(String name) {
     print(name);
-    game.stop();
+    context.setTransform(1, 0, 0, 1, 0, 0);
     game.onRender = elements[name].render;
     game.start();
   }

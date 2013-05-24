@@ -1,2178 +1,504 @@
 ---
-build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/dart_canvas_gallery.css --chan...
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 423 ms
-Total time                                                   -- 467 ms
-build.dart finished [1120 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  52 ms
-build.dart finished [1190 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 270 ms
-Total time                                                   -- 302 ms
-build.dart finished [806 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  74 ms
-build.dart finished [1585 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 263 ms
-Total time                                                   -- 296 ms
-build.dart finished [736 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [462 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 257 ms
-Total time                                                   -- 289 ms
-build.dart finished [734 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [472 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 259 ms
-Total time                                                   -- 295 ms
-build.dart finished [741 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [459 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 263 ms
-Total time                                                   -- 296 ms
-build.dart finished [854 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  35 ms
-build.dart finished [732 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 259 ms
-Total time                                                   -- 292 ms
-build.dart finished [732 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [524 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 270 ms
-Total time                                                   -- 302 ms
-build.dart finished [743 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [472 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 266 ms
-Total time                                                   -- 298 ms
-build.dart finished [738 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [485 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 273 ms
-Total time                                                   -- 320 ms
-build.dart finished [768 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [476 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 257 ms
-Total time                                                   -- 297 ms
-build.dart finished [741 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 267 ms
-Total time                                                   -- 300 ms
-build.dart finished [749 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  31 ms
-build.dart finished [559 ms]
-
----
-build.dart --machine --changed=pubspec.yaml
-Total time                                                   --  28 ms
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 269 ms
-Total time                                                   -- 302 ms
-build.dart finished [829 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  33 ms
-build.dart finished [639 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 258 ms
-Total time                                                   -- 289 ms
-build.dart finished [727 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 275 ms
-Total time                                                   -- 307 ms
-build.dart finished [749 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [466 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 273 ms
-Total time                                                   -- 305 ms
-build.dart finished [748 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [480 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 268 ms
-Total time                                                   -- 300 ms
-build.dart finished [763 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [483 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 263 ms
-Total time                                                   -- 297 ms
-build.dart finished [745 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  25 ms
-build.dart finished [470 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 269 ms
-Total time                                                   -- 304 ms
-build.dart finished [749 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [467 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 268 ms
-Total time                                                   -- 300 ms
-build.dart finished [753 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [497 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 274 ms
-Total time                                                   -- 308 ms
-build.dart finished [746 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [470 ms]
-
----
-build.dart --machine --changed=web/main.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 265 ms
-Total time                                                   -- 297 ms
-build.dart finished [809 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  52 ms
-build.dart finished [1091 ms]
-
----
-build.dart --machine --changed=web/main.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 277 ms
-Total time                                                   -- 310 ms
-build.dart finished [754 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [474 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 358 ms
-Total time                                                   -- 389 ms
-build.dart finished [846 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [483 ms]
-
----
-build.dart --machine --removed=web/main.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 377 ms
-Total time                                                   -- 410 ms
-build.dart finished [902 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [481 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 411 ms
-Total time                                                   -- 445 ms
-build.dart finished [891 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 349 ms
-Total time                                                   -- 381 ms
-build.dart finished [826 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [486 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 350 ms
-Total time                                                   -- 383 ms
-build.dart finished [825 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  26 ms
-build.dart finished [503 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 351 ms
-Total time                                                   -- 383 ms
-build.dart finished [825 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [476 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 345 ms
-Total time                                                   -- 377 ms
-build.dart finished [844 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [481 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 359 ms
-Total time                                                   -- 393 ms
-build.dart finished [854 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [494 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 355 ms
-Total time                                                   -- 389 ms
-build.dart finished [829 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [479 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 351 ms
-Total time                                                   -- 387 ms
-build.dart finished [847 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  25 ms
-build.dart finished [469 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 353 ms
-Total time                                                   -- 387 ms
-build.dart finished [829 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [483 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 352 ms
-Total time                                                   -- 385 ms
-build.dart finished [836 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [465 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 364 ms
-Total time                                                   -- 397 ms
-build.dart finished [848 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [482 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 350 ms
-Total time                                                   -- 383 ms
-build.dart finished [827 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [470 ms]
-
----
-build.dart --machine --changed=pubspec.lock
-Total time                                                   --  28 ms
-build.dart finished [465 ms]
-
----
-build.dart --machine --clean
-Total time                                                   --  28 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --full
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 354 ms
-Total time                                                   -- 387 ms
-build.dart finished [825 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [607 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 369 ms
-Total time                                                   -- 403 ms
-build.dart finished [856 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [472 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 382 ms
-Total time                                                   -- 415 ms
-build.dart finished [874 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [495 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-[{"method":"error","params":{"file":"web/rings.dart","message":"The file web cannot be processed. Files cannot be under the output folder (web/out).","line":5,"charStart":72,"charEnd":96}}]
-Total time spent on web/dart_canvas_gallery.html             -- 288 ms
-Total time                                                   -- 322 ms
-build.dart finished [773 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-[{"method":"error","params":{"file":"web/rings.dart","message":"unable to open file \"web/dart_canvas_gallery\"","line":5,"charStart":72,"charEnd":99}}]
-Total time spent on web/dart_canvas_gallery.html             -- 283 ms
-Total time                                                   -- 316 ms
-build.dart finished [773 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 375 ms
-Total time                                                   -- 411 ms
-build.dart finished [851 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  33 ms
-build.dart finished [480 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 383 ms
-Total time                                                   -- 417 ms
-build.dart finished [866 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 367 ms
-Total time                                                   -- 400 ms
-build.dart finished [842 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [470 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 373 ms
-Total time                                                   -- 406 ms
-build.dart finished [859 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [481 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 378 ms
-Total time                                                   -- 413 ms
-build.dart finished [893 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [478 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 434 ms
-Total time                                                   -- 468 ms
-build.dart finished [968 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [465 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 383 ms
-Total time                                                   -- 416 ms
-build.dart finished [862 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [469 ms]
-
----
-build.dart --machine --clean
-Total time                                                   --  27 ms
-build.dart finished [478 ms]
-
----
-build.dart --machine --full
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 372 ms
-Total time                                                   -- 405 ms
-build.dart finished [849 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  38 ms
-build.dart finished [698 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 358 ms
-Total time                                                   -- 394 ms
-build.dart finished [842 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [476 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 377 ms
-Total time                                                   -- 411 ms
-build.dart finished [854 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [469 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 359 ms
-Total time                                                   -- 391 ms
-build.dart finished [833 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [465 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 365 ms
-Total time                                                   -- 396 ms
-build.dart finished [842 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [473 ms]
-
----
-build.dart --machine --full
+build.dart --machine --changed=README.md --changed=pubspec.lock --changed=pubspec.yaml --changed=web\analog_clo...
 [{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 366 ms
-Total time                                                   -- 396 ms
-build.dart finished [1074 ms]
+Total time spent on web/dart_canvas_gallery.html             -- 2976 ms
+Total time                                                   -- 3209 ms
+build.dart finished [5746 ms]
 
 ---
 build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
-
-build.dart finished [1299 ms]
-
----
-build.dart --machine --removed=web\out\dart_canvas_gallery.css --removed=web\out\dart_canvas_gallery.dart --rem...
-
-build.dart finished [736 ms]
+Total time                                                   -- 101 ms
+build.dart finished [1139 ms]
 
 ---
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [895 ms]
-
----
-build.dart --machine --changed=web\dart_canvas_gallery.css
-
-build.dart finished [495 ms]
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 536 ms
+Total time                                                   -- 565 ms
+build.dart finished [1065 ms]
 
 ---
-build.dart --machine --changed=web\dart_canvas_gallery.html
-
-build.dart finished [502 ms]
-
----
-build.dart --machine --changed=web\dart_canvas_gallery.css
-
-build.dart finished [482 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  27 ms
+build.dart finished [1553 ms]
 
 ---
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [513 ms]
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 543 ms
+Total time                                                   -- 573 ms
+build.dart finished [1095 ms]
 
 ---
-build.dart --machine --changed=web\analog_clock.dart
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [530 ms]
 
+---
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 522 ms
+Total time                                                   -- 552 ms
+build.dart finished [1052 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
 build.dart finished [516 ms]
 
 ---
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [496 ms]
-
----
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [478 ms]
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 539 ms
+Total time                                                   -- 570 ms
+build.dart finished [1118 ms]
 
 ---
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [492 ms]
-
----
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [484 ms]
-
----
-build.dart --machine --changed=web\analog_clock.dart
-
-build.dart finished [484 ms]
-
----
-build.dart --machine --changed=web\dart_canvas_gallery.css
-
-build.dart finished [1244 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [533 ms]
 
 ---
 build.dart --machine --changed=web\rings.dart
-
-build.dart finished [826 ms]
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 580 ms
+Total time                                                   -- 609 ms
+build.dart finished [1126 ms]
 
 ---
-build.dart --machine --changed=web\dart_canvas_gallery.dart
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [563 ms]
 
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 533 ms
+Total time                                                   -- 562 ms
+build.dart finished [1057 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
+build.dart finished [516 ms]
+
+---
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 541 ms
+Total time                                                   -- 572 ms
+build.dart finished [1090 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
 build.dart finished [518 ms]
 
 ---
 build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 1145 ms
+Total time                                                   -- 1300 ms
+build.dart finished [2266 ms]
 
-build.dart finished [595 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart --changed=web/dart_canvas_gallery.css --changed=web/dart_c...
-
-build.dart finished [520 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [427 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [426 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [435 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [436 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [440 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [424 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [451 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [528 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [458 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [640 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [443 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [443 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [424 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-
-build.dart finished [447 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [445 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [440 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [425 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [431 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-
-build.dart finished [434 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [450 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-
-build.dart finished [433 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-
-build.dart finished [436 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [429 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [435 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-
-build.dart finished [443 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-
-build.dart finished [638 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-
-build.dart finished [439 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [590 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [431 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-
-build.dart finished [441 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-
-build.dart finished [426 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-
-build.dart finished [429 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [429 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [443 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [469 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [441 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [452 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [424 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [436 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [439 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [427 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [432 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [434 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [439 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [432 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [431 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [471 ms]
-
----
-build.dart --machine --changed=pubspec.lock
-
-build.dart finished [432 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [451 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [441 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-
-build.dart finished [428 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [435 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [433 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [435 ms]
-
----
-build.dart --machine --clean
-
-build.dart finished [433 ms]
-
----
-build.dart --machine --full
-
-build.dart finished [454 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [433 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-
-build.dart finished [429 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [425 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [431 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [426 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [426 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [472 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [434 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [439 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [447 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [430 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [438 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [435 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [635 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [448 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [449 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [465 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [453 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [432 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [429 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [428 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [462 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [450 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [437 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [604 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [429 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [435 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [619 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [633 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [434 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [439 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [634 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [427 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [426 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [439 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-
-build.dart finished [449 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-
-build.dart finished [433 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-
-build.dart finished [473 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [487 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 531 ms
-Total time                                                   -- 565 ms
-build.dart finished [1070 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  26 ms
-build.dart finished [573 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 489 ms
-Total time                                                   -- 523 ms
-build.dart finished [961 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [467 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 510 ms
-Total time                                                   -- 544 ms
-build.dart finished [983 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 596 ms
-Total time                                                   -- 633 ms
-build.dart finished [1159 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  38 ms
-build.dart finished [660 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 576 ms
-Total time                                                   -- 613 ms
-build.dart finished [1134 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [666 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 596 ms
-Total time                                                   -- 639 ms
-build.dart finished [1164 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  32 ms
-build.dart finished [570 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 609 ms
-Total time                                                   -- 642 ms
-build.dart finished [1128 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [490 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 508 ms
-Total time                                                   -- 550 ms
-build.dart finished [1002 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [479 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 581 ms
-Total time                                                   -- 621 ms
-build.dart finished [1141 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  33 ms
-build.dart finished [559 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 587 ms
-Total time                                                   -- 623 ms
-build.dart finished [1163 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  33 ms
-build.dart finished [562 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 499 ms
-Total time                                                   -- 532 ms
-build.dart finished [1019 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [482 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 482 ms
-Total time                                                   -- 516 ms
-build.dart finished [995 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [482 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 487 ms
-Total time                                                   -- 523 ms
-build.dart finished [971 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  25 ms
-build.dart finished [523 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 475 ms
-Total time                                                   -- 510 ms
-build.dart finished [951 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [474 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 497 ms
-Total time                                                   -- 532 ms
-build.dart finished [971 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [490 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 484 ms
-Total time                                                   -- 520 ms
-build.dart finished [975 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [472 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 490 ms
-Total time                                                   -- 525 ms
-build.dart finished [975 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [475 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 491 ms
-Total time                                                   -- 526 ms
-build.dart finished [970 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [495 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 481 ms
-Total time                                                   -- 514 ms
-build.dart finished [960 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [469 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 480 ms
-Total time                                                   -- 515 ms
-build.dart finished [968 ms]
-
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [493 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  39 ms
+build.dart finished [737 ms]
 
 ---
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 579 ms
-Total time                                                   -- 613 ms
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 521 ms
+Total time                                                   -- 551 ms
 build.dart finished [1052 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [566 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  27 ms
+build.dart finished [638 ms]
 
 ---
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 484 ms
-Total time                                                   -- 518 ms
-build.dart finished [968 ms]
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 528 ms
+Total time                                                   -- 558 ms
+build.dart finished [1056 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [537 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [522 ms]
 
 ---
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 503 ms
-Total time                                                   -- 539 ms
-build.dart finished [1002 ms]
+build.dart --machine --changed=web\gallery_element.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 533 ms
+Total time                                                   -- 563 ms
+build.dart finished [1141 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  27 ms
 build.dart finished [532 ms]
 
 ---
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 488 ms
-Total time                                                   -- 522 ms
-build.dart finished [969 ms]
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 539 ms
+Total time                                                   -- 573 ms
+build.dart finished [1077 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 489 ms
-Total time                                                   -- 526 ms
-build.dart finished [984 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [467 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 481 ms
-Total time                                                   -- 515 ms
-build.dart finished [971 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 495 ms
-Total time                                                   -- 528 ms
-build.dart finished [973 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  26 ms
-build.dart finished [497 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 518 ms
-Total time                                                   -- 563 ms
-build.dart finished [1018 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [498 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 494 ms
-Total time                                                   -- 529 ms
-build.dart finished [989 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [467 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 486 ms
-Total time                                                   -- 520 ms
-build.dart finished [965 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [521 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 495 ms
-Total time                                                   -- 532 ms
-build.dart finished [1072 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [521 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 566 ms
-Total time                                                   -- 601 ms
-build.dart finished [1084 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [479 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 508 ms
-Total time                                                   -- 543 ms
-build.dart finished [992 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  35 ms
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
 build.dart finished [509 ms]
 
 ---
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 507 ms
-Total time                                                   -- 543 ms
-build.dart finished [994 ms]
+build.dart --machine --changed=web\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 553 ms
+Total time                                                   -- 583 ms
+build.dart finished [1088 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [517 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  33 ms
+build.dart finished [579 ms]
 
 ---
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 514 ms
-Total time                                                   -- 548 ms
-build.dart finished [1000 ms]
+build.dart --machine --changed=web\spinning_square.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 542 ms
+Total time                                                   -- 574 ms
+build.dart finished [1092 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 490 ms
-Total time                                                   -- 525 ms
-build.dart finished [964 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [482 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 499 ms
-Total time                                                   -- 534 ms
-build.dart finished [981 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  34 ms
-build.dart finished [534 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 479 ms
-Total time                                                   -- 515 ms
-build.dart finished [968 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [500 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 483 ms
-Total time                                                   -- 514 ms
-build.dart finished [954 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [474 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 481 ms
-Total time                                                   -- 515 ms
-build.dart finished [967 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 487 ms
-Total time                                                   -- 522 ms
-build.dart finished [975 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [506 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 575 ms
-Total time                                                   -- 611 ms
-build.dart finished [1132 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [541 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 496 ms
-Total time                                                   -- 534 ms
-build.dart finished [999 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [485 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 491 ms
-Total time                                                   -- 525 ms
-build.dart finished [971 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [483 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 487 ms
-Total time                                                   -- 522 ms
-build.dart finished [996 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [501 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 493 ms
-Total time                                                   -- 525 ms
-build.dart finished [972 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [477 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 496 ms
-Total time                                                   -- 531 ms
-build.dart finished [987 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  32 ms
-build.dart finished [487 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 489 ms
-Total time                                                   -- 526 ms
-build.dart finished [982 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [474 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 529 ms
-Total time                                                   -- 564 ms
-build.dart finished [1016 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 507 ms
-Total time                                                   -- 540 ms
-build.dart finished [981 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [465 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 500 ms
-Total time                                                   -- 534 ms
-build.dart finished [1019 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [512 ms]
-
----
-build.dart --machine --changed=web/gallery_element.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 493 ms
-Total time                                                   -- 528 ms
-build.dart finished [988 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [465 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 521 ms
-Total time                                                   -- 553 ms
-build.dart finished [1012 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [468 ms]
-
----
-build.dart --machine --changed=web/rings.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 499 ms
-Total time                                                   -- 528 ms
-build.dart finished [986 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  31 ms
-build.dart finished [534 ms]
-
----
-build.dart --machine --changed=web/analog_clock.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 501 ms
-Total time                                                   -- 537 ms
-build.dart finished [992 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  25 ms
-build.dart finished [459 ms]
-
----
-build.dart --machine --changed=web/spinning_square.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 486 ms
-Total time                                                   -- 521 ms
-build.dart finished [1030 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  38 ms
-build.dart finished [675 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 504 ms
-Total time                                                   -- 539 ms
-build.dart finished [1001 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
 Total time                                                   --  26 ms
-build.dart finished [478 ms]
+build.dart finished [550 ms]
 
 ---
-build.dart --machine --changed=web/spinning_square.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 509 ms
-Total time                                                   -- 544 ms
-build.dart finished [996 ms]
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 539 ms
+Total time                                                   -- 570 ms
+build.dart finished [1090 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
-build.dart finished [467 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [539 ms]
 
 ---
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 487 ms
-Total time                                                   -- 520 ms
-build.dart finished [976 ms]
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 546 ms
+Total time                                                   -- 577 ms
+build.dart finished [1099 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [479 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
+build.dart finished [507 ms]
 
 ---
-build.dart --machine --changed=web/spinning_square.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 514 ms
-Total time                                                   -- 549 ms
-build.dart finished [988 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [484 ms]
-
----
-build.dart --machine --changed=web/spinning_square.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 521 ms
-Total time                                                   -- 555 ms
-build.dart finished [997 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  36 ms
-build.dart finished [511 ms]
-
----
-build.dart --machine --changed=web/spinning_square.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 512 ms
-Total time                                                   -- 543 ms
-build.dart finished [1018 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [469 ms]
-
----
-build.dart --machine --changed=web/spinning_square.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 492 ms
-Total time                                                   -- 528 ms
-build.dart finished [975 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [476 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-[{"method":"warning","params":{"file":"web/dart_canvas_gallery.html","message":"template attribute is required when using if, instantiate, repeat, or iterate attributes.","line":15,"charStart":311,"charEnd":367}}]
-Total time spent on web/dart_canvas_gallery.html             -- 487 ms
-Total time                                                   -- 543 ms
-build.dart finished [991 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  30 ms
-build.dart finished [464 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 517 ms
-Total time                                                   -- 551 ms
-build.dart finished [994 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [479 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 510 ms
-Total time                                                   -- 544 ms
-build.dart finished [995 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  27 ms
-build.dart finished [464 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
 Total time spent on web/dart_canvas_gallery.html             -- 541 ms
-Total time                                                   -- 576 ms
-build.dart finished [1062 ms]
+Total time                                                   -- 577 ms
+build.dart finished [1095 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  29 ms
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [527 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 555 ms
+Total time                                                   -- 584 ms
+build.dart finished [1083 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [542 ms]
+
+---
+build.dart --machine --changed=web\spinning_square.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 548 ms
+Total time                                                   -- 578 ms
+build.dart finished [1078 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [539 ms]
+
+---
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 567 ms
+Total time                                                   -- 597 ms
+build.dart finished [1113 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [550 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 538 ms
+Total time                                                   -- 568 ms
+build.dart finished [1067 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [505 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 560 ms
+Total time                                                   -- 594 ms
+build.dart finished [1116 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  28 ms
+build.dart finished [594 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 538 ms
+Total time                                                   -- 568 ms
+build.dart finished [1073 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  27 ms
+build.dart finished [560 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 531 ms
+Total time                                                   -- 562 ms
+build.dart finished [1049 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [550 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 541 ms
+Total time                                                   -- 572 ms
+build.dart finished [1109 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [509 ms]
+
+---
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 578 ms
+Total time                                                   -- 608 ms
+build.dart finished [1103 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  27 ms
+build.dart finished [534 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 547 ms
+Total time                                                   -- 577 ms
+build.dart finished [1099 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
+build.dart finished [529 ms]
+
+---
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 1280 ms
+Total time                                                   -- 1330 ms
+build.dart finished [2480 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  44 ms
+build.dart finished [875 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 562 ms
+Total time                                                   -- 592 ms
+build.dart finished [1097 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  30 ms
+build.dart finished [1201 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 1000 ms
+Total time                                                   -- 1108 ms
+build.dart finished [2052 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  25 ms
+build.dart finished [651 ms]
+
+---
+build.dart --machine --changed=web\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 536 ms
+Total time                                                   -- 565 ms
+build.dart finished [1065 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  27 ms
 build.dart finished [532 ms]
 
 ---
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 498 ms
-Total time                                                   -- 532 ms
-build.dart finished [985 ms]
+build.dart --machine --changed=web\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 565 ms
+Total time                                                   -- 595 ms
+build.dart finished [1123 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [534 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 532 ms
+Total time                                                   -- 561 ms
+build.dart finished [1078 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
 Total time                                                   --  25 ms
-build.dart finished [516 ms]
+build.dart finished [501 ms]
 
 ---
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 533 ms
-Total time                                                   -- 570 ms
-build.dart finished [1044 ms]
+build.dart --machine --changed=web\spinning_square.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 528 ms
+Total time                                                   -- 558 ms
+build.dart finished [1042 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [589 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [537 ms]
 
 ---
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 515 ms
-Total time                                                   -- 549 ms
-build.dart finished [987 ms]
+build.dart --machine --changed=web\spinning_square.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 531 ms
+Total time                                                   -- 562 ms
+build.dart finished [1060 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [469 ms]
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [535 ms]
 
 ---
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 522 ms
-Total time                                                   -- 553 ms
-build.dart finished [1002 ms]
+build.dart --machine --changed=web\gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 528 ms
+Total time                                                   -- 558 ms
+build.dart finished [1069 ms]
 
 ---
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [502 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 556 ms
+Total time                                                   -- 586 ms
+build.dart finished [1134 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [546 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 556 ms
+Total time                                                   -- 587 ms
+build.dart finished [1103 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  30 ms
+build.dart finished [1314 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 531 ms
+Total time                                                   -- 560 ms
+build.dart finished [1054 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  29 ms
+build.dart finished [542 ms]
+
+---
+build.dart --machine --changed=web\dart_canvas_gallery.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 526 ms
+Total time                                                   -- 556 ms
+build.dart finished [1071 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
+Total time                                                   --  26 ms
+build.dart finished [540 ms]
+
+---
+build.dart --machine --changed=web\rings.dart
+[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web\\out\\dart_canvas_gallery.html"}}]
+Total time spent on web/dart_canvas_gallery.html             -- 539 ms
+Total time                                                   -- 575 ms
+build.dart finished [1086 ms]
+
+---
+build.dart --machine --changed=web\out\dart_canvas_gallery.css --changed=web\out\dart_canvas_gallery.dart --cha...
 Total time                                                   --  27 ms
-build.dart finished [506 ms]
-
----
-build.dart --machine --changed=web/dart_canvas_gallery.html
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 535 ms
-Total time                                                   -- 569 ms
-build.dart finished [1018 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  32 ms
-build.dart finished [496 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 518 ms
-Total time                                                   -- 552 ms
-build.dart finished [1001 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [520 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 524 ms
-Total time                                                   -- 558 ms
-build.dart finished [1017 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [476 ms]
-
----
-build.dart --machine --changed=web/gallery.dart
-[{"method":"mapping","params":{"from":"web/dart_canvas_gallery.html","to":"web/out/dart_canvas_gallery.html"}}]
-Total time spent on web/dart_canvas_gallery.html             -- 525 ms
-Total time                                                   -- 558 ms
-build.dart finished [1041 ms]
-
----
-build.dart --machine --changed=web/out/dart_canvas_gallery.css --changed=web/out/dart_canvas_gallery.dart --cha...
-Total time                                                   --  28 ms
-build.dart finished [481 ms]
+build.dart finished [574 ms]
 

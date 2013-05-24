@@ -17,22 +17,11 @@ class AnalogClock extends GalleryElement {
    * Sets all of the class properties, most of which originate from the canvas element.
    * Also rotates the rendering context for correct display of time.
    */
-  AnalogClock(CanvasElement canvas, CanvasRenderingContext2D context) {
-    this.displayName = "Analog Clock";
-    this.description = "An example of using arcs and trig to make a clock";
-    this.canvas = canvas;
-    this.context = context;
-
+  AnalogClock(CanvasElement canvas, CanvasRenderingContext2D context)
+      : super("Analog Clock", "", canvas, context) {
     this.clockRadius = min(canvas.width, canvas.height) * 0.49;
     this.centerX = canvas.width / 2;
     this.centerY = canvas.height / 2;
-
-    // Arc (circle) origins always start at the right side, which makes
-    // the math for rendering the clock hard.
-    // Make it easier by just rotating the entire canvas -45 degrees.
-    // context.translate(centerX, centerY);
-    // context.rotate((3 * PI) / 2);
-    // context.translate(-centerX, -centerY);
   }
 
   /**
@@ -52,7 +41,7 @@ class AnalogClock extends GalleryElement {
     // Clear the context.
     context.setFillColorRgb(255, 255, 255, 1);
     context.fillRect(0, 0, canvas.width, canvas.height);
-
+    
     // Start drawing the outline and minute marker path.
     context.beginPath();
 
@@ -105,6 +94,11 @@ class AnalogClock extends GalleryElement {
    * Angle provided will determine the position of the line.
    */
   void drawClockHand(double angle, double length, int red, int green, int blue) {
+    context.save();
+    context.translate(centerX, centerY);
+    context.rotate((3 * PI) / 2);
+    context.translate(-centerX, -centerY);
+    
     // Get the ratio of the sides to radius.
     double adjRatio = adjacentRatio(angle);
     double oppRatio = oppositeRatio(angle);
@@ -120,6 +114,8 @@ class AnalogClock extends GalleryElement {
     context.closePath();
     context.setStrokeColorRgb(red, green, blue, 1);
     context.stroke();
+    
+    context.restore();
   }
 
   /**

@@ -1,6 +1,6 @@
 part of dart_canvas_gallery;
 
-/// A basic [Ring] object.
+/// A basic Ring object.
 ///
 /// Specifies location and size to draw the Ring, and the amount by
 /// which to resize it.
@@ -16,7 +16,7 @@ class Ring {
 /// Specifies the mechanics of drawing animated [Ring]s to a canvas element.
 ///
 /// The constructor accepts the canvas element to draw to, which must be
-/// present in the DOM before creating an instance of [Rings].
+/// present in the DOM before creating an instance of Rings.
 class Rings extends GalleryElement {
 
   /// Random number generator
@@ -32,13 +32,10 @@ class Rings extends GalleryElement {
   ///
   /// ##Arguments:
   /// 1. [canvas]: requires a reference to a canvas element from the dom.
-  /// 2. [maxRings]: the maximum number of rings to render.
-  Rings(CanvasElement canvas, CanvasRenderingContext2D context, [int maxRings = 100]) {
-    this.displayName = "Rings";
-    this.description = "A example of animation using rings";
-    this.canvas = canvas;
-    this.context = context;
-
+  /// 2. [context]: requires a context on which to draw.
+  /// 3. [maxRings]: the maximum number of rings to render.
+  Rings(CanvasElement canvas, CanvasRenderingContext2D context, [int maxRings = 100])
+      : super("Rings", "", canvas, context) {
     // Populate the list of rings with randomized starting positions.
     generateRings(maxRings);
   }
@@ -89,9 +86,9 @@ class Rings extends GalleryElement {
   /// Each time this function is called it will expand or collapse
   /// each ring accordingly and set the color of the [Ring] according to
   /// its percentage of radius to maxRadius.
-  void render(GameLoopHtml loop) {
+  void render(GameLoopHtml loop) {    
     // Start by clearing the screen
-    context.setStrokeColorRgb(0, 0, 0, 255);
+    context.setFillColorRgb(0, 0, 0, 1);
     context.fillRect(0, 0, canvas.width, canvas.height);
 
     // Process each [Ring] independently.
