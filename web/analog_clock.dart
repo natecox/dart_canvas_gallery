@@ -3,11 +3,7 @@ part of dart_canvas_gallery;
 /**
  * Contains all the information nessisary to draw an analog clock to a given canvas element.
  */
-class AnalogClock implements GalleryElement {
-  /// The canvas element to get the drawing context from.
-  CanvasElement canvas;
-  /// The rendering context to draw to.
-  CanvasRenderingContext2D context;
+class AnalogClock extends GalleryElement {
   /// The radius of the entire clock face.
   double clockRadius;
   /// The x position of the center of the clock face.
@@ -21,19 +17,22 @@ class AnalogClock implements GalleryElement {
    * Sets all of the class properties, most of which originate from the canvas element.
    * Also rotates the rendering context for correct display of time.
    */
-  AnalogClock(this.canvas) {
-      canvas.width = canvas.clientWidth;
-      canvas.height = canvas.clientHeight;
-      context = canvas.getContext("2d");
-      clockRadius = min(canvas.width, canvas.height) * 0.49;
-      centerX = canvas.width / 2;
-      centerY = canvas.height / 2;
+  AnalogClock(CanvasElement canvas, CanvasRenderingContext2D context) {
+    this.displayName = "Analog Clock";
+    this.description = "An example of using arcs and trig to make a clock";
+    this.canvas = canvas;
+    this.context = context;
+
+    this.clockRadius = min(canvas.width, canvas.height) * 0.49;
+    this.centerX = canvas.width / 2;
+    this.centerY = canvas.height / 2;
+
     // Arc (circle) origins always start at the right side, which makes
     // the math for rendering the clock hard.
     // Make it easier by just rotating the entire canvas -45 degrees.
-    context.translate(centerX, centerY);
-    context.rotate((3 * PI) / 2);
-    context.translate(-centerX, -centerY);
+    // context.translate(centerX, centerY);
+    // context.rotate((3 * PI) / 2);
+    // context.translate(-centerX, -centerY);
   }
 
   /**
@@ -41,7 +40,7 @@ class AnalogClock implements GalleryElement {
    *
    * Processes the details of drawing the clock face and hands.
    */
-  void render() {
+  void render(GameLoopHtml loop) {
     // Set the current date and time
     final DateTime date = new DateTime.now();
 
@@ -97,10 +96,7 @@ class AnalogClock implements GalleryElement {
     // Draw the clock hands.
     drawClockHand((anglePerHour * date.hour), clockRadius - 50, 0, 0, 255);
     drawClockHand((anglePerMinute * date.minute), clockRadius - 20, 255, 0, 0);
-    drawClockHand((anglePerSecond * date.second), clockRadius,0, 255, 0);
-
-    // Prepare to run this function again when the browser is ready.
-    window.animationFrame.then((time) => render());
+    drawClockHand((anglePerSecond * date.second), clockRadius, 0, 255, 0);
   } // AnalogClock.render()
 
   /**

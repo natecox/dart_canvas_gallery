@@ -2,13 +2,24 @@ library dart_canvas_gallery;
 
 import "dart:html";
 import "dart:math";
+import "package:web_ui/web_ui.dart";
+import "package:game_loop/game_loop_html.dart";
 
 part "gallery_element.dart";
 part "analog_clock.dart";
 part "rings.dart";
+part "gallery.dart";
+part "spinning_square.dart";
 
-Rings r;
+Gallery gallery;
+List<String> galleryItems;
+
+Random rng = new Random();
+
 void main() {
-  r = new Rings(query("#gallery"));
-  r.render();
+  gallery = new Gallery();
+  galleryItems = toObservable(new List<String>());
+  gallery.elements.keys.forEach((i) => galleryItems.add(i));
+
+  gallery.swapTo("Rings");
 }
