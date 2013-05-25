@@ -11,7 +11,7 @@ h1, p {
   color: #333;
 }
 
-canvas {
-  height: 300px;
-  width: 300px;
+canvas[id=gCanvas] {
+  height: 100%;
+  width: 100%
 }

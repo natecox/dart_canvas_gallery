@@ -33,8 +33,6 @@ class Gallery {
     elements[g.displayName] = g;
     g = new AnalogClock(canvas, context);
     elements[g.displayName] = g;
-    g = new SpinningSquare(canvas, context);
-    elements[g.displayName] = g;
   }
 
   void swapTo(String name) {

@@ -19,5 +19,5 @@ void main() {
   galleryItems = toObservable(new List<String>());
   gallery.elements.keys.forEach((i) => galleryItems.add(i));
 
-  gallery.swapTo("Rings");
+  gallery.swapTo(galleryItems.last);
 }

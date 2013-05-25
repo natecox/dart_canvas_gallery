@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="dart_canvas_gallery.css">
   </head>
   <body>
-    <ul>
-      <li template repeat="item in galleryItems" on-click="gallery.swapTo(item)">
-        {{item}}
-      </li>
-    </ul>
-    <canvas id="gCanvas"></canvas>
+    <header>
 
-    <template repeat="item in galleryItems">
-      <canvas id={{item}}></canvas>
-    </template>
+    </header>
+    <nav>
+      <ul>
+        <li template repeat="item in galleryItems" on-click="gallery.swapTo(item)">
+          {{item}}
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <canvas id="gCanvas"></canvas>
+    </section>
+    <footer>
+
+    </footer>
     <script type="application/dart" src="dart_canvas_gallery.dart"></script>
     <script src="packages/browser/dart.js"></script>
   </body>

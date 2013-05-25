@@ -37,7 +37,7 @@ class Rings extends GalleryElement {
   Rings(CanvasElement canvas, CanvasRenderingContext2D context, [int maxRings = 100])
       : super("Rings", "", canvas, context) {
     // Populate the list of rings with randomized starting positions.
-    generateRings(maxRings);
+    generateRings((sqrt(pow(canvas.width, 2) + pow(canvas.height, 2)) / 2).floor());
   }
 
   /// Populates a list with randomly sized and positioned [Ring] objects.
