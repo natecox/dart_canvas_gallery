@@ -80,18 +80,7 @@ class Rings extends GalleryElement {
     }
   }
 
-  /// Processes the animation.
-  ///
-  /// This function processes each [Ring] object in the populated list.
-  /// Each time this function is called it will expand or collapse
-  /// each ring accordingly and set the color of the [Ring] according to
-  /// its percentage of radius to maxRadius.
-  void render(GameLoopHtml loop) {    
-    // Start by clearing the screen
-    context.setFillColorRgb(0, 0, 0, 1);
-    context.fillRect(0, 0, canvas.width, canvas.height);
-
-    // Process each [Ring] independently.
+  void update(GameLoopHtml loop) {
     for (Ring ring in rings) {
       // Modify the [Ring]'s radius by the value of its multiplier.
       ring.radius += ring.multiplier;
@@ -113,7 +102,22 @@ class Rings extends GalleryElement {
           ring.multiplier *= -1.0;
         }
       }
+    }
+  }
 
+  /// Processes the animation.
+  ///
+  /// This function processes each [Ring] object in the populated list.
+  /// Each time this function is called it will expand or collapse
+  /// each ring accordingly and set the color of the [Ring] according to
+  /// its percentage of radius to maxRadius.
+  void render(GameLoopHtml loop) {
+    // Start by clearing the screen
+    context.setFillColorRgb(0, 0, 0, 1);
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Process each [Ring] independently.
+    for (Ring ring in rings) {
       // To fade the ring, get the percentage of current radius to
       // maximum radius. Setting the ring's alpha to this gives you
       // full translucency at radius 0 and total opacity at maximum radius.

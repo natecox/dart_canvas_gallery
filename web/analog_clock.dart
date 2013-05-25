@@ -10,6 +10,9 @@ class AnalogClock extends GalleryElement {
   double centerX;
   /// The y position of the center of the clock face.
   double centerY;
+  final double anglePerSecond = 360 / 60;
+  final double anglePerMinute = 360 / 60;
+  final double anglePerHour = 360 / 12;
 
   /**
    * Class constructor
@@ -24,6 +27,10 @@ class AnalogClock extends GalleryElement {
     this.centerY = canvas.height / 2;
   }
 
+  void update(GameLoopHtml loop) {
+
+  }
+
   /**
    * Renders the image to the canvas context.
    *
@@ -33,15 +40,10 @@ class AnalogClock extends GalleryElement {
     // Set the current date and time
     final DateTime date = new DateTime.now();
 
-    // Set the number of degrees between clock markers.
-    final double anglePerSecond = 360 / 60;
-    final double anglePerMinute = 360 / 60;
-    final double anglePerHour = 360 / 12;
-
     // Clear the context.
     context.setFillColorRgb(255, 255, 255, 1);
     context.fillRect(0, 0, canvas.width, canvas.height);
-    
+
     // Start drawing the outline and minute marker path.
     context.beginPath();
 
@@ -98,7 +100,7 @@ class AnalogClock extends GalleryElement {
     context.translate(centerX, centerY);
     context.rotate((3 * PI) / 2);
     context.translate(-centerX, -centerY);
-    
+
     // Get the ratio of the sides to radius.
     double adjRatio = adjacentRatio(angle);
     double oppRatio = oppositeRatio(angle);
@@ -114,7 +116,7 @@ class AnalogClock extends GalleryElement {
     context.closePath();
     context.setStrokeColorRgb(red, green, blue, 1);
     context.stroke();
-    
+
     context.restore();
   }
 

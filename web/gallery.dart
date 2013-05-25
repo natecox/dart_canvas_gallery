@@ -22,10 +22,12 @@ class Gallery {
 
     game = new GameLoopHtml(canvas);
     context = canvas.context2D;
-    
+
+    game.start();
+
 
     elements = new Map<String, GalleryElement>();
-    
+
     GalleryElement g;
     g = new Rings(canvas, context);
     elements[g.displayName] = g;
@@ -36,9 +38,8 @@ class Gallery {
   }
 
   void swapTo(String name) {
-    print(name);
     context.setTransform(1, 0, 0, 1, 0, 0);
+    game.onUpdate = elements[name].update;
     game.onRender = elements[name].render;
-    game.start();
   }
 }
