@@ -14,6 +14,8 @@ class Gallery {
   CanvasElement canvas;
   CanvasRenderingContext2D context;
   Map<String, GalleryElement> elements;
+  String currentName;
+  String currentDescription;
 
   Gallery() {
     canvas = query('#gCanvas');
@@ -36,6 +38,8 @@ class Gallery {
   }
 
   void swapTo(String name) {
+    currentName = name;
+    currentDescription = elements[name].description;
     context.setTransform(1, 0, 0, 1, 0, 0);
     game.onUpdate = elements[name].update;
     game.onRender = elements[name].render;

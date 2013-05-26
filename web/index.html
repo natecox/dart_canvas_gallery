@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="dart_canvas_gallery.css">
   </head>
   <body>
-    <header>
+    <header><h1>Dart Canvas Gallery</h1></header>
 
-    </header>
-    <nav>
-      <ul>
-        <li template repeat="item in galleryItems" on-click="gallery.swapTo(item)">
-          {{item}}
-        </li>
-      </ul>
-    </nav>
     <section>
-      <canvas id="gCanvas"></canvas>
+      <nav>
+        <ul>
+          <li template repeat="item in galleryItems" on-click="gallery.swapTo(item)">
+            {{item}}
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <header><h1>{{gallery.currentName}}</h1></header>
+        <canvas id="gCanvas"></canvas>
+        <footer>{{gallery.currentDescription}}</footer>
+      </article>
     </section>
-    <footer>
 
-    </footer>
+    <footer>&copy; Nathan Cox 2013</footer>
+
     <script type="application/dart" src="dart_canvas_gallery.dart"></script>
     <script src="packages/browser/dart.js"></script>
   </body>

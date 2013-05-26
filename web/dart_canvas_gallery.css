@@ -1,17 +1,83 @@
-body {
-  background-color: #F8F8F8;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.2em;
-  margin: 15px;
+:root {
+  -webkit-var-nav-size: 200px;
 }
 
-h1, p {
-  color: #333;
-}
-
-canvas[id=gCanvas] {
+html {
+  margin: 0px;
+  width: 100%;
   height: 100%;
-  width: 100%
+}
+
+body {
+  position: relative;
+  background-color: #212;
+  color: #FFF;
+  margin: 0px;
+  min-width: 550px;
+  height: 100%;
+}
+
+header h1 {
+  margin: 0px;
+}
+
+section {
+  background: -webkit-linear-gradient(top, #101 0%, #313 10%, #636 50%, #313 90%, #101 100%);
+  background: -moz -linear-gradient(top, #101 0%, #313 10%, #636 50%, #313 90%, #101 100%);
+  border: 1px solid cyan;
+  border-radius: 4px;
+  padding-left: 150px;
+  overflow: hidden;
+}
+
+section nav, section article {
+  float: left;
+  position: relative;
+  padding-bottom: 20000px;  /* X + padding-bottom */
+  margin-bottom: -20000px;  /* X */
+}
+
+section nav {
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 85%, rgba(0,0,0,0) 100%);
+  background: -moz-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 85%, rgba(0,0,0,0) 100%);
+  width: 150px;
+  margin-left: -150px;
+}
+
+section nav ul {
+  list-style: none;
+  padding-left: 2em;
+  text-indent: -1em;
+}
+
+section nav ul li:before {
+  content: "\0BB \020";
+}
+
+section article {
+  width: 100%;
+}
+
+article header, article footer {
+  width: 100%;
+  text-align: left;
+}
+
+article header {
+  min-height: 2em;
+}
+
+section article footer {
+  min-height: 3em;
+}
+
+section canvas {
+  vertical-align: top;
+  width: 100%;
+  min-height: 500px;
+}
+
+footer {
+  clear: both;
+  text-align: right;
 }
