@@ -8,4 +8,4 @@ dependencies:
   js: any
   web_ui: any
   game_loop:
-    git: https://github.com/johnmccutchan/game_loop.git
+    git: https://github.com/tsuujin/game_loop.git

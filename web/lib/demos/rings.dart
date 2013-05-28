@@ -36,7 +36,7 @@ class Rings extends GalleryElement {
   Rings(CanvasElement canvas, CanvasRenderingContext2D context, [int maxRings = 100])
       : super("Rings", "A particle system example.", canvas, context) {
     // Populate the list of rings with randomized starting positions.
-    generateRings((sqrt(pow(canvas.width, 2) + pow(canvas.height, 2)) / 2).floor());
+    generateRings((sqrt(pow(canvas.width, 2) + pow(canvas.height, 2)) / 4).floor());
   }
 
   /// Populates a list with randomly sized and positioned [Ring] objects.
@@ -80,6 +80,9 @@ class Rings extends GalleryElement {
   }
 
   void update(GameLoopHtml loop) {
+    canvas.width = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
+    
     for (Ring ring in rings) {
       // Modify the [Ring]'s radius by the value of its multiplier.
       ring.radius += ring.multiplier;

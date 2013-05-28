@@ -21,14 +21,12 @@ class AnalogClock extends GalleryElement {
    * Also rotates the rendering context for correct display of time.
    */
   AnalogClock(CanvasElement canvas, CanvasRenderingContext2D context)
-      : super("Analog Clock", "A simple clock generated entirely with paths.", canvas, context) {
+      : super("Analog Clock", "A simple clock generated entirely with paths.", canvas, context);
+
+  void update(GameLoopHtml loop) {
     this.clockRadius = min(canvas.width, canvas.height) * 0.49;
     this.centerX = canvas.width / 2;
     this.centerY = canvas.height / 2;
-  }
-
-  void update(GameLoopHtml loop) {
-
   }
 
   /**

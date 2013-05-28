@@ -3527,3 +3527,394 @@ build.dart --machine --changed=web/out/index.html --changed=web/out/index.html_b
 Total time                                                   --  49 ms
 build.dart finished [700 ms]
 
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web\lib\demos\analog_clock.dart --...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 608 ms
+Total time                                                   -- 638 ms
+build.dart finished [1135 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   -- 123 ms
+build.dart finished [1245 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 1787 ms
+Total time                                                   -- 1862 ms
+build.dart finished [2859 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  59 ms
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/Nate/projects/dart_canvas_gallery/packages/html5lib/src/utils.dart'package:html5lib/src/constants.dart': Error: line 3 pos 1: library handler failed
+import 'utils.dart';
+^
+'package:html5lib/dom.dart': Error: line 11 pos 1: library handler failed
+import 'src/constants.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 12 pos 1: library handler failed
+import 'package:html5lib/dom.dart';
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Users/Nate/projects/dart_canvas_gallery/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [364 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  75 ms
+build.dart finished [1524 ms]
+
+---
+build.dart --machine --removed=web\out\index.html --removed=web\out\index.html_bootstrap.dart --removed=web\out...
+Total time                                                   --  27 ms
+build.dart finished [558 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  25 ms
+build.dart finished [513 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  28 ms
+build.dart finished [523 ms]
+
+---
+build.dart --machine --changed=web\out\index.html_bootstrap.dart.js --changed=web\out\index.html_bootstrap.dart...
+Total time                                                   --  26 ms
+build.dart finished [508 ms]
+
+---
+build.dart --machine --changed=web\lib\main.dart.js --changed=web\lib\main.dart.js.deps --changed=web\lib\main....
+Total time                                                   --  25 ms
+build.dart finished [516 ms]
+
+---
+build.dart --machine --removed=web\lib\main.dart.js --removed=web\lib\main.dart.js.deps --removed=web\lib\main....
+Total time                                                   --  27 ms
+build.dart finished [568 ms]
+
+---
+build.dart --machine --removed=web\out\index.html --removed=web\out\index.html_bootstrap.dart --removed=web\out...
+Total time                                                   --  27 ms
+build.dart finished [544 ms]
+
+---
+build.dart --machine --changed=web\lib\main.dart.js --changed=web\lib\main.dart.js.deps --changed=web\lib\main....
+Total time                                                   --  25 ms
+build.dart finished [506 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   -- 890 ms
+build.dart finished [2286 ms]
+
+---
+build.dart --machine --removed=web\lib\main.dart.js --removed=web\lib\main.dart.js.deps --removed=web\lib\main....
+Total time                                                   --  26 ms
+build.dart finished [566 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  45 ms
+build.dart finished [593 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  30 ms
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=web\lib\main.dart.js --changed=web\lib\main.dart.js.deps --changed=web\lib\main....
+Total time                                                   --  28 ms
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=web\lib\demos\analog_clock.dart
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 604 ms
+Total time                                                   -- 634 ms
+build.dart finished [1218 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  26 ms
+build.dart finished [697 ms]
+
+---
+build.dart --machine --changed=web\lib\demos\rings.dart
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 628 ms
+Total time                                                   -- 660 ms
+build.dart finished [1171 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  27 ms
+build.dart finished [712 ms]
+
+---
+build.dart --machine --changed=web\lib\demos\rings.dart
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 616 ms
+Total time                                                   -- 649 ms
+build.dart finished [1157 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  27 ms
+build.dart finished [520 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  32 ms
+build.dart finished [593 ms]
+
+---
+build.dart --machine --changed=deploy\index.html --changed=deploy\lib\main.dart.js --changed=deploy\lib\main.da...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 653 ms
+Total time                                                   -- 689 ms
+build.dart finished [1256 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  34 ms
+build.dart finished [571 ms]
+
+---
+build.dart --machine --changed=deploy\lib\main.dart --changed=deploy\lib\main.dart.js
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 629 ms
+Total time                                                   -- 660 ms
+build.dart finished [1188 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  41 ms
+build.dart finished [1556 ms]
+
+---
+build.dart --machine --changed=deploy\index.html_bootstrap.dart --changed=deploy\index.html_bootstrap.dart.js -...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Uncaught Error: FileIOException: Cannot open file 'web\out\lib\main.dart' (OS Error: The process cannot access the file because it is being used by another process.
+, errno = 32)
+Stack Trace:
+#0      _File.open.<anonymous closure> (file_impl.dart:255:9)
+#1      _ThenFuture._sendValue (dart:async/future_impl.dart:265:24)
+#2      _FutureImpl._setValue (dart:async/future_impl.dart:149:26)
+#3      _SyncCompleter._setFutureValue (dart:async/future_impl.dart:43:21)
+#4      _Completer.complete (dart:async/future_impl.dart:12:20)
+#5      _SendPortImpl.call.<anonymous closure> (dart:isolate-patch/isolate_patch.dart:106:27)
+#6      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+
+
+Unhandled exception:
+FileIOException: Cannot open file 'web\out\lib\main.dart' (OS Error: The process cannot access the file because it is being used by another process.
+, errno = 32)
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async/future_impl.dart:180:9)
+#1      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:15:17)
+#2      _asyncRunCallback._asyncRunCallback (dart:async/event_loop.dart:25:9)
+#3      Timer.run.<anonymous closure> (dart:async/timer.dart:17:21)
+#4      Timer.run.<anonymous closure> (dart:async/timer.dart:25:13)
+#5      Timer.Timer.<anonymous closure> (dart:async-patch/timer_patch.dart:9:15)
+#6      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:99:28)
+#7      _Timer._createTimerHandler._handleTimeout (timer_impl.dart:107:7)
+#8      _Timer._createTimerHandler.<anonymous closure> (timer_impl.dart:115:23)
+#9      _ReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:81:92)
+build.dart finished [1164 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  63 ms
+build.dart finished [1230 ms]
+
+---
+build.dart --machine --removed=deploy\index.html --removed=deploy\index.html_bootstrap.dart --removed=deploy\in...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 622 ms
+Total time                                                   -- 652 ms
+build.dart finished [1164 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  26 ms
+build.dart finished [542 ms]
+
+---
+build.dart --machine --changed=deploy\index.html --changed=deploy\lib\main.dart.js --changed=deploy\lib\main.da...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 665 ms
+Total time                                                   -- 711 ms
+build.dart finished [1246 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  29 ms
+build.dart finished [585 ms]
+
+---
+build.dart --machine --changed=deploy\lib\main.dart --changed=deploy\lib\main.dart.js
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 648 ms
+Total time                                                   -- 677 ms
+build.dart finished [1173 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   -- 103 ms
+build.dart finished [1155 ms]
+
+---
+build.dart --machine --removed=deploy\index.html --removed=deploy\lib\main.dart --removed=deploy\lib\main.dart....
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 609 ms
+Total time                                                   -- 638 ms
+build.dart finished [1154 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  26 ms
+build.dart finished [521 ms]
+
+---
+build.dart --machine --changed=deploy\index.html --changed=deploy\index.html_bootstrap.dart --changed=deploy\in...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 596 ms
+Total time                                                   -- 627 ms
+build.dart finished [1198 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  32 ms
+build.dart finished [654 ms]
+
+---
+build.dart --machine --changed=deploy\index.html
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 589 ms
+Total time                                                   -- 618 ms
+build.dart finished [1128 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  26 ms
+build.dart finished [511 ms]
+
+---
+build.dart --machine --removed=deploy\index.html --removed=deploy\index.html_bootstrap.dart --removed=deploy\in...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 621 ms
+Total time                                                   -- 652 ms
+build.dart finished [1272 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  27 ms
+build.dart finished [537 ms]
+
+---
+build.dart --machine --removed=web\lib\main.dart.js --removed=web\lib\main.dart.js.deps --removed=web\lib\main....
+Total time                                                   --  28 ms
+build.dart finished [572 ms]
+
+---
+build.dart --machine --removed=web\out\index.html --removed=web\out\index.html_bootstrap.dart --removed=web\out...
+Total time                                                   --  29 ms
+build.dart finished [543 ms]
+
+---
+build.dart --machine --changed=web\lib\main.dart.js --changed=web\lib\main.dart.js.deps --changed=web\lib\main....
+Total time                                                   --  28 ms
+build.dart finished [561 ms]
+
+---
+build.dart --machine --removed=web\lib\main.dart.js --removed=web\lib\main.dart.js.deps --removed=web\lib\main....
+Total time                                                   --  29 ms
+build.dart finished [556 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  26 ms
+build.dart finished [537 ms]
+
+---
+build.dart --machine --changed=web\lib\main.dart.js --changed=web\lib\main.dart.js.deps --changed=web\lib\main....
+Total time                                                   --  28 ms
+build.dart finished [520 ms]
+
+---
+build.dart --machine --changed=web\out\index.html_bootstrap.dart.js --changed=web\out\index.html_bootstrap.dart...
+Total time                                                   --  29 ms
+build.dart finished [558 ms]
+
+---
+build.dart --machine --changed=deploy\index.html --changed=deploy\index.html_bootstrap.dart --changed=deploy\in...
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 619 ms
+Total time                                                   -- 653 ms
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  29 ms
+build.dart finished [654 ms]
+
+---
+build.dart --machine --changed=deploy\index.html
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 611 ms
+Total time                                                   -- 642 ms
+build.dart finished [1161 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  27 ms
+build.dart finished [566 ms]
+
+---
+build.dart --machine --changed=deploy\index.html
+[{"method":"mapping","params":{"from":"web/index.html","to":"web\\out\\index.html"}}]
+Total time spent on web/index.html                           -- 691 ms
+Total time                                                   -- 725 ms
+build.dart finished [1249 ms]
+
+---
+build.dart --machine --changed=web\out\index.html --changed=web\out\index.html_bootstrap.dart --changed=web\out...
+Total time                                                   --  29 ms
+build.dart finished [591 ms]
+
+---
+build.dart --machine --changed=deploy\index.html_bootstrap.dart.js
+Total time                                                   --  29 ms
+build.dart finished [560 ms]
+
+---
+build.dart --machine --changed=deploy\index.html_bootstrap.dart.js
+Total time                                                   --  27 ms
+build.dart finished [569 ms]
+
+---
+build.dart --machine --changed=deploy\index.html_bootstrap.dart.js
+Total time                                                   --  27 ms
+build.dart finished [566 ms]
+
+---
+build.dart --machine --changed=deploy\index.html_bootstrap.dart.js
+Total time                                                   --  32 ms
+build.dart finished [611 ms]
+
