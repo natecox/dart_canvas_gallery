@@ -13,308 +13,6 @@ var $ = Isolate.$isolateProperties;
 var $$ = {};
 
 // Classes
-$$.AnalogClock = {"": "GalleryElement;clockRadius,centerX,centerY,anglePerSecond,anglePerMinute,anglePerHour,displayName,description,canvas,context",
-  update$1: function(loop) {
-    var t1, t2;
-    t1 = this.canvas;
-    t2 = $.getInterceptor$x(t1);
-    this.clockRadius = $.min(t2.get$width(t1), t2.get$height(t1)) * 0.49;
-    this.centerX = $.$div$n($.get$width$x(this.canvas), 2);
-    this.centerY = $.$div$n($.get$height$x(this.canvas), 2);
-  },
-  get$update: function() {
-    return new $.BoundClosure$1(this, "update$1");
-  },
-  render$1: function(loop) {
-    var date, t1, t2, t3, t4, i, markLength, adjRatio, oppRatio, outerX, outerY;
-    date = $.DateTime$_now();
-    this.context.save();
-    t1 = this.context;
-    t2 = this.canvas;
-    t3 = $.getInterceptor$x(t2);
-    t1.clearRect(0, 0, t3.get$width(t2), t3.get$height(t2));
-    this.context.lineWidth = 3;
-    this.context.beginPath();
-    t2 = this.context;
-    t3 = this.canvas;
-    t1 = $.getInterceptor$x(t3);
-    t4 = $.$div$n(t1.get$width(t3), 2);
-    t3 = $.$div$n(t1.get$height(t3), 2);
-    t1 = this.clockRadius;
-    t2.arc$6;
-    t2.arc(t4, t3, t1, 0, 6.283185307179586, false);
-    this.context.closePath();
-    t1 = this.context;
-    t1.setFillColorRgb$4;
-    t1.fillStyle = "rgba(255, 255, 255, 1)";
-    this.context.fill();
-    for (t1 = this.anglePerMinute, i = 0; i < 60; ++i) {
-      this.context.save();
-      if ($.JSNumber_methods.$mod(i, 15) === 0)
-        markLength = 30;
-      else
-        markLength = $.JSNumber_methods.$mod(i, 5) === 0 ? 20 : 10;
-      t2 = t1 * i * 0.017453292519943295;
-      adjRatio = Math.cos(t2);
-      oppRatio = Math.sin(t2);
-      t2 = this.clockRadius;
-      t3 = $.getInterceptor$n(t2);
-      outerX = t3.$mul(t2, adjRatio);
-      outerY = t3.$mul(t2, oppRatio);
-      t4 = t3.$sub(t2, markLength);
-      t2 = t3.$sub(t2, markLength);
-      this.context.translate(this.centerX, this.centerY);
-      this.context.beginPath();
-      this.context.moveTo(t4 * adjRatio, t2 * oppRatio);
-      this.context.lineTo(outerX, outerY);
-      this.context.closePath();
-      t2 = this.context;
-      t2.setStrokeColorRgb$4;
-      t2.strokeStyle = "rgba(0, 0, 0, 1)";
-      this.context.stroke();
-      this.context.restore();
-    }
-    this.drawClockHand$5(this.anglePerHour * $.Primitives_getHours(date), $.$sub$n(this.clockRadius, 50), 0, 0, 255);
-    this.drawClockHand$5(t1 * $.Primitives_getMinutes(date), $.$sub$n(this.clockRadius, 20), 255, 0, 0);
-    this.drawClockHand$5(this.anglePerSecond * $.Primitives_getSeconds(date), this.clockRadius, 0, 255, 0);
-    this.context.beginPath();
-    t1 = this.context;
-    t2 = this.canvas;
-    t3 = $.getInterceptor$x(t2);
-    t4 = $.$div$n(t3.get$width(t2), 2);
-    t2 = $.$div$n(t3.get$height(t2), 2);
-    t3 = this.clockRadius;
-    t1.arc$6;
-    t1.arc(t4, t2, t3, 0, 6.283185307179586, false);
-    this.context.closePath();
-    t3 = this.context;
-    t3.setStrokeColorRgb$4;
-    t3.strokeStyle = "rgba(0, 0, 0, 1)";
-    this.context.stroke();
-    this.context.restore();
-  },
-  get$render: function() {
-    return new $.BoundClosure$1(this, "render$1");
-  },
-  drawClockHand$5: function(angle, $length, red, green, blue) {
-    var t1, adjRatio, oppRatio, t2, t3, t4;
-    this.context.save();
-    this.context.translate(this.centerX, this.centerY);
-    this.context.rotate(4.71238898038469);
-    this.context.translate($.$negate$n(this.centerX), $.$negate$n(this.centerY));
-    t1 = angle * 0.017453292519943295;
-    adjRatio = Math.cos(t1);
-    oppRatio = Math.sin(t1);
-    t1 = $.getInterceptor$n($length);
-    t2 = t1.$mul($length, adjRatio);
-    t3 = this.centerX;
-    if (typeof t3 !== "number")
-      throw $.iae(t3);
-    t1 = t1.$mul($length, oppRatio);
-    t4 = this.centerY;
-    if (typeof t4 !== "number")
-      throw $.iae(t4);
-    this.context.beginPath();
-    this.context.moveTo(this.centerX, this.centerY);
-    this.context.lineTo(t2 + t3, t1 + t4);
-    this.context.closePath();
-    t4 = this.context;
-    t4.setStrokeColorRgb$4;
-    t4.strokeStyle = "rgba(" + red + ", " + green + ", " + blue + ", 1)";
-    this.context.stroke();
-    this.context.restore();
-  }
-};
-
-$$.Ring = {"": "Object;x>,y>,red<,green<,blue<,radius@,maxRadius<,multiplier@,alpha*"};
-
-$$.Rings = {"": "GalleryElement;rng,rings,displayName,description,canvas,context",
-  generateRings$1: function(maxRings) {
-    var t1, xBuffer, yBuffer, t2, i, max, t3, x, y, maxRadius, t4, t5;
-    t1 = $.List_List(maxRings, $.Ring);
-    t1.$builtinTypeInfo = [$.Ring];
-    this.rings = t1;
-    xBuffer = $.round$0$nx($.$mul$n($.get$width$x(this.canvas), 0.1));
-    if (typeof xBuffer !== "number")
-      return this.generateRings$1$bailout(1, maxRings, xBuffer);
-    yBuffer = $.round$0$nx($.$mul$n($.get$height$x(this.canvas), 0.1));
-    if (typeof yBuffer !== "number")
-      return this.generateRings$1$bailout(2, maxRings, xBuffer, yBuffer);
-    for (t1 = yBuffer * 2, t2 = xBuffer * 2, i = 0; i < maxRings; ++i) {
-      max = $.$sub$n($.get$width$x(this.canvas), t2);
-      t3 = $.getInterceptor$n(max);
-      if (t3.$lt(max, 0))
-        $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
-      if (t3.$gt(max, 4294967295))
-        max = 4294967295;
-      x = (Math.random() * max >>> 0) + xBuffer;
-      max = $.$sub$n($.get$height$x(this.canvas), t1);
-      t3 = $.getInterceptor$n(max);
-      if (t3.$lt(max, 0))
-        $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
-      if (t3.$gt(max, 4294967295))
-        max = 4294967295;
-      y = (Math.random() * max >>> 0) + yBuffer;
-      maxRadius = $.toDouble$0$n($.IterableMixinWorkaround_reduce([x, y, $.$sub$n($.get$width$x(this.canvas), x), $.$sub$n($.get$height$x(this.canvas), y)], $.min$closure));
-      t3 = Math.random();
-      t4 = Math.random();
-      t5 = this.rings;
-      t4 = $.Ring$(x, y, t3 * maxRadius, maxRadius, 255, 255, 255, 1, t4 * 2 + 0.5);
-      if (i >= t5.length)
-        throw $.ioore(i);
-      t5[i] = t4;
-    }
-  },
-  generateRings$1$bailout: function(state0, maxRings, xBuffer, yBuffer) {
-    switch (state0) {
-      case 0:
-        t1 = $.List_List(maxRings, $.Ring);
-        t1.$builtinTypeInfo = [$.Ring];
-        this.rings = t1;
-        xBuffer = $.round$0$nx($.$mul$n($.get$width$x(this.canvas), 0.1));
-      case 1:
-        state0 = 0;
-        yBuffer = $.round$0$nx($.$mul$n($.get$height$x(this.canvas), 0.1));
-      case 2:
-        var t1, t2, i, max, t3, x, y, maxRadius, t4, t5;
-        state0 = 0;
-        for (t1 = $.getInterceptor$n(yBuffer), t2 = $.getInterceptor$n(xBuffer), i = 0; i < maxRings; ++i) {
-          max = $.$sub$n($.get$width$x(this.canvas), t2.$mul(xBuffer, 2));
-          t3 = $.getInterceptor$n(max);
-          if (t3.$lt(max, 0))
-            $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
-          if (t3.$gt(max, 4294967295))
-            max = 4294967295;
-          t3 = Math.random() * max >>> 0;
-          if (typeof xBuffer !== "number")
-            throw $.iae(xBuffer);
-          x = t3 + xBuffer;
-          max = $.$sub$n($.get$height$x(this.canvas), t1.$mul(yBuffer, 2));
-          t3 = $.getInterceptor$n(max);
-          if (t3.$lt(max, 0))
-            $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
-          if (t3.$gt(max, 4294967295))
-            max = 4294967295;
-          t3 = Math.random() * max >>> 0;
-          if (typeof yBuffer !== "number")
-            throw $.iae(yBuffer);
-          y = t3 + yBuffer;
-          maxRadius = $.toDouble$0$n($.IterableMixinWorkaround_reduce([x, y, $.$sub$n($.get$width$x(this.canvas), x), $.$sub$n($.get$height$x(this.canvas), y)], $.min$closure));
-          t3 = Math.random();
-          t4 = Math.random();
-          t5 = this.rings;
-          t4 = $.Ring$(x, y, t3 * maxRadius, maxRadius, 255, 255, 255, 1, t4 * 2 + 0.5);
-          if (i >= t5.length)
-            throw $.ioore(i);
-          t5[i] = t4;
-        }
-    }
-  },
-  update$1: function(loop) {
-    var t1, ring, t2, t3;
-    t1 = this.canvas;
-    $.set$width$x(t1, t1.clientWidth);
-    t1 = this.canvas;
-    $.set$height$x(t1, t1.clientHeight);
-    for (t1 = $.get$iterator$ax(this.rings); t1.moveNext$0();) {
-      ring = t1.get$current();
-      ring.set$radius(ring.get$radius() + ring.get$multiplier());
-      if (ring.get$multiplier() > 0) {
-        t2 = ring.get$radius();
-        t3 = ring.get$maxRadius();
-        if (t2 > t3) {
-          ring.set$radius(t3);
-          ring.set$multiplier(ring.get$multiplier() * -1);
-        }
-      } else if (ring.get$radius() < 1) {
-        ring.set$radius(1);
-        ring.set$multiplier(ring.get$multiplier() * -1);
-      }
-    }
-  },
-  get$update: function() {
-    return new $.BoundClosure$1(this, "update$1");
-  },
-  render$1: function(loop) {
-    var t1, t2, t3, ring, t4, t5, t6;
-    t1 = this.context;
-    t2 = this.canvas;
-    t3 = $.getInterceptor$x(t2);
-    t1.clearRect(0, 0, t3.get$width(t2), t3.get$height(t2));
-    for (t1 = $.get$iterator$ax(this.rings); t1.moveNext$0();) {
-      ring = t1.get$current();
-      t2 = $.getInterceptor$x(ring);
-      t2.set$alpha(ring, ring.get$radius() / ring.get$maxRadius());
-      this.context.beginPath();
-      t3 = this.context;
-      t4 = t2.get$x(ring);
-      t5 = t2.get$y(ring);
-      t6 = ring.get$radius();
-      t3.arc$6;
-      t3.arc(t4, t5, t6, 0, 6.283185307179586, false);
-      this.context.closePath();
-      t6 = this.context;
-      t5 = ring.get$red();
-      t4 = ring.get$green();
-      t3 = ring.get$blue();
-      t2 = t2.get$alpha(ring);
-      t6.setStrokeColorRgb$4;
-      t6.strokeStyle = "rgba(" + t5 + ", " + t4 + ", " + t3 + ", " + $.S(t2) + ")";
-      this.context.stroke();
-    }
-  },
-  get$render: function() {
-    return new $.BoundClosure$1(this, "render$1");
-  },
-  Rings$3: function(canvas, context, maxRings) {
-    var t1 = $.getInterceptor$x(canvas);
-    this.generateRings$1($.JSNumber_methods.floor$0($.$div$n($.sqrt($.$add$ns($.pow(t1.get$width(canvas), 2), $.pow(t1.get$height(canvas), 2))), 4)));
-  }
-};
-
-$$.Gallery = {"": "Object;game,canvas,context,elements,currentName,currentDescription",
-  swapTo$1: function($name) {
-    var t1, t2;
-    this.currentName = $name;
-    t1 = this.elements;
-    this.currentDescription = t1.$index(t1, $name).get$description();
-    this.context.setTransform(1, 0, 0, 1, 0, 0);
-    t1 = this.game;
-    t2 = this.elements;
-    t1.onUpdate = t2.$index(t2, $name).get$update();
-    t2 = this.game;
-    t1 = this.elements;
-    t2.onRender = t1.$index(t1, $name).get$render();
-  },
-  Gallery$0: function() {
-    var t1, g;
-    this.canvas = $.query("#gCanvas");
-    t1 = this.canvas;
-    $.set$width$x(t1, t1.clientWidth);
-    t1 = this.canvas;
-    $.set$height$x(t1, t1.clientHeight);
-    this.game = $.GameLoopHtml$(this.canvas);
-    this.context = $.get$context2D$x(this.canvas);
-    t1 = this.game;
-    t1.start$0(t1);
-    this.elements = $.Map_Map($.JSString, $.GalleryElement);
-    g = $.Rings$(this.canvas, this.context, 100);
-    t1 = this.elements;
-    t1.$indexSet(t1, g.displayName, g);
-    g = $.AnalogClock$(this.canvas, this.context);
-    t1 = this.elements;
-    t1.$indexSet(t1, g.displayName, g);
-  }
-};
-
-$$.GalleryElement = {"": "Object;description<"};
-
-$$.main_closure = {"": "Closure;",
-  call$1: function(i) {
-    return $.add$1$ax($.galleryItems, i);
-  }
-};
-
 $$.ListIterable = {"": "IterableBase;",
   get$iterator: function(_) {
     return $.ListIterator$(this);
@@ -4101,6 +3799,283 @@ $$.convertDartToNative_Dictionary_closure = {"": "Closure;object_0",
 
 $$.ReceivePort = {"": "Object;"};
 
+$$.AnalogClock = {"": "GalleryElement;clockRadius,centerX,centerY,anglePerSecond,anglePerMinute,anglePerHour,displayName,description,canvas,context",
+  update$1: function(loop) {
+    var t1, t2;
+    t1 = this.canvas;
+    $.set$width$x(t1, t1.clientWidth);
+    t1 = this.canvas;
+    $.set$height$x(t1, t1.clientHeight);
+    t1 = this.canvas;
+    t2 = $.getInterceptor$x(t1);
+    this.clockRadius = $.min(t2.get$width(t1), t2.get$height(t1)) * 0.49;
+    this.centerX = $.$div$n($.get$width$x(this.canvas), 2);
+    this.centerY = $.$div$n($.get$height$x(this.canvas), 2);
+  },
+  get$update: function() {
+    return new $.BoundClosure$1(this, "update$1");
+  },
+  render$1: function(loop) {
+    var date, t1, t2, t3, i, markLength, adjRatio, oppRatio, outerX, outerY, t4;
+    date = $.DateTime$_now();
+    $.save$0$x(this.context);
+    t1 = this.context;
+    t2 = this.canvas;
+    t3 = $.getInterceptor$x(t2);
+    $.clearRect$4$x(t1, 0, 0, t3.get$width(t2), t3.get$height(t2));
+    $.set$lineWidth$x(this.context, 3);
+    $.beginPath$0$x(this.context);
+    t2 = this.context;
+    t3 = this.canvas;
+    t1 = $.getInterceptor$x(t3);
+    $.arc$6$x(t2, $.$div$n(t1.get$width(t3), 2), $.$div$n(t1.get$height(t3), 2), this.clockRadius, 0, 6.283185307179586, false);
+    $.closePath$0$x(this.context);
+    $.setFillColorRgb$4$x(this.context, 255, 255, 255, 1);
+    $.fill$0$x(this.context);
+    for (t1 = this.anglePerMinute, i = 0; i < 60; ++i) {
+      $.save$0$x(this.context);
+      if ($.JSNumber_methods.$mod(i, 15) === 0)
+        markLength = 30;
+      else
+        markLength = $.JSNumber_methods.$mod(i, 5) === 0 ? 20 : 10;
+      t2 = t1 * i * 0.017453292519943295;
+      adjRatio = Math.cos(t2);
+      oppRatio = Math.sin(t2);
+      t2 = this.clockRadius;
+      t3 = $.getInterceptor$n(t2);
+      outerX = t3.$mul(t2, adjRatio);
+      outerY = t3.$mul(t2, oppRatio);
+      t4 = t3.$sub(t2, markLength);
+      t2 = t3.$sub(t2, markLength);
+      $.translate$2$x(this.context, this.centerX, this.centerY);
+      $.beginPath$0$x(this.context);
+      $.moveTo$2$x(this.context, t4 * adjRatio, t2 * oppRatio);
+      $.lineTo$2$x(this.context, outerX, outerY);
+      $.closePath$0$x(this.context);
+      $.setStrokeColorRgb$4$x(this.context, 0, 0, 0, 1);
+      $.stroke$0$x(this.context);
+      $.restore$0$x(this.context);
+    }
+    this.drawClockHand$5(this.anglePerHour * $.Primitives_getHours(date), $.$sub$n(this.clockRadius, 50), 0, 0, 255);
+    this.drawClockHand$5(t1 * $.Primitives_getMinutes(date), $.$sub$n(this.clockRadius, 20), 255, 0, 0);
+    this.drawClockHand$5(this.anglePerSecond * $.Primitives_getSeconds(date), this.clockRadius, 0, 255, 0);
+    $.beginPath$0$x(this.context);
+    t1 = this.context;
+    t2 = this.canvas;
+    t3 = $.getInterceptor$x(t2);
+    $.arc$6$x(t1, $.$div$n(t3.get$width(t2), 2), $.$div$n(t3.get$height(t2), 2), this.clockRadius, 0, 6.283185307179586, false);
+    $.closePath$0$x(this.context);
+    $.setStrokeColorRgb$4$x(this.context, 0, 0, 0, 1);
+    $.stroke$0$x(this.context);
+    $.restore$0$x(this.context);
+  },
+  get$render: function() {
+    return new $.BoundClosure$1(this, "render$1");
+  },
+  drawClockHand$5: function(angle, $length, red, green, blue) {
+    var t1, adjRatio, oppRatio, t2, t3, t4;
+    $.save$0$x(this.context);
+    $.translate$2$x(this.context, this.centerX, this.centerY);
+    $.rotate$1$x(this.context, 4.71238898038469);
+    $.translate$2$x(this.context, $.$negate$n(this.centerX), $.$negate$n(this.centerY));
+    t1 = angle * 0.017453292519943295;
+    adjRatio = Math.cos(t1);
+    oppRatio = Math.sin(t1);
+    t1 = $.getInterceptor$n($length);
+    t2 = t1.$mul($length, adjRatio);
+    t3 = this.centerX;
+    if (typeof t3 !== "number")
+      throw $.iae(t3);
+    t1 = t1.$mul($length, oppRatio);
+    t4 = this.centerY;
+    if (typeof t4 !== "number")
+      throw $.iae(t4);
+    $.beginPath$0$x(this.context);
+    $.moveTo$2$x(this.context, this.centerX, this.centerY);
+    $.lineTo$2$x(this.context, t2 + t3, t1 + t4);
+    $.closePath$0$x(this.context);
+    $.setStrokeColorRgb$4$x(this.context, red, green, blue, 1);
+    $.stroke$0$x(this.context);
+    $.restore$0$x(this.context);
+  }
+};
+
+$$.Ring = {"": "Object;x>,y>,red<,green<,blue<,radius@,maxRadius<,multiplier@,alpha*"};
+
+$$.Rings = {"": "GalleryElement;rng,rings,displayName,description,canvas,context",
+  generateRings$1: function(maxRings) {
+    var t1, xBuffer, yBuffer, t2, i, max, t3, x, y, maxRadius, t4, t5;
+    t1 = $.List_List(maxRings, $.Ring);
+    t1.$builtinTypeInfo = [$.Ring];
+    this.rings = t1;
+    xBuffer = $.round$0$nx($.$mul$n($.get$width$x(this.canvas), 0.1));
+    if (typeof xBuffer !== "number")
+      return this.generateRings$1$bailout(1, maxRings, xBuffer);
+    yBuffer = $.round$0$nx($.$mul$n($.get$height$x(this.canvas), 0.1));
+    if (typeof yBuffer !== "number")
+      return this.generateRings$1$bailout(2, maxRings, xBuffer, yBuffer);
+    for (t1 = yBuffer * 2, t2 = xBuffer * 2, i = 0; i < maxRings; ++i) {
+      max = $.$sub$n($.get$width$x(this.canvas), t2);
+      t3 = $.getInterceptor$n(max);
+      if (t3.$lt(max, 0))
+        $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
+      if (t3.$gt(max, 4294967295))
+        max = 4294967295;
+      x = (Math.random() * max >>> 0) + xBuffer;
+      max = $.$sub$n($.get$height$x(this.canvas), t1);
+      t3 = $.getInterceptor$n(max);
+      if (t3.$lt(max, 0))
+        $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
+      if (t3.$gt(max, 4294967295))
+        max = 4294967295;
+      y = (Math.random() * max >>> 0) + yBuffer;
+      maxRadius = $.toDouble$0$n($.IterableMixinWorkaround_reduce([x, y, $.$sub$n($.get$width$x(this.canvas), x), $.$sub$n($.get$height$x(this.canvas), y)], $.min$closure));
+      t3 = Math.random();
+      t4 = Math.random();
+      t5 = this.rings;
+      t4 = $.Ring$(x, y, t3 * maxRadius, maxRadius, 255, 255, 255, 1, t4 * 2 + 0.5);
+      if (i >= t5.length)
+        throw $.ioore(i);
+      t5[i] = t4;
+    }
+  },
+  generateRings$1$bailout: function(state0, maxRings, xBuffer, yBuffer) {
+    switch (state0) {
+      case 0:
+        t1 = $.List_List(maxRings, $.Ring);
+        t1.$builtinTypeInfo = [$.Ring];
+        this.rings = t1;
+        xBuffer = $.round$0$nx($.$mul$n($.get$width$x(this.canvas), 0.1));
+      case 1:
+        state0 = 0;
+        yBuffer = $.round$0$nx($.$mul$n($.get$height$x(this.canvas), 0.1));
+      case 2:
+        var t1, t2, i, max, t3, x, y, maxRadius, t4, t5;
+        state0 = 0;
+        for (t1 = $.getInterceptor$n(yBuffer), t2 = $.getInterceptor$n(xBuffer), i = 0; i < maxRings; ++i) {
+          max = $.$sub$n($.get$width$x(this.canvas), t2.$mul(xBuffer, 2));
+          t3 = $.getInterceptor$n(max);
+          if (t3.$lt(max, 0))
+            $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
+          if (t3.$gt(max, 4294967295))
+            max = 4294967295;
+          t3 = Math.random() * max >>> 0;
+          if (typeof xBuffer !== "number")
+            throw $.iae(xBuffer);
+          x = t3 + xBuffer;
+          max = $.$sub$n($.get$height$x(this.canvas), t1.$mul(yBuffer, 2));
+          t3 = $.getInterceptor$n(max);
+          if (t3.$lt(max, 0))
+            $.throwExpression($.ArgumentError$("negative max: " + $.S(max)));
+          if (t3.$gt(max, 4294967295))
+            max = 4294967295;
+          t3 = Math.random() * max >>> 0;
+          if (typeof yBuffer !== "number")
+            throw $.iae(yBuffer);
+          y = t3 + yBuffer;
+          maxRadius = $.toDouble$0$n($.IterableMixinWorkaround_reduce([x, y, $.$sub$n($.get$width$x(this.canvas), x), $.$sub$n($.get$height$x(this.canvas), y)], $.min$closure));
+          t3 = Math.random();
+          t4 = Math.random();
+          t5 = this.rings;
+          t4 = $.Ring$(x, y, t3 * maxRadius, maxRadius, 255, 255, 255, 1, t4 * 2 + 0.5);
+          if (i >= t5.length)
+            throw $.ioore(i);
+          t5[i] = t4;
+        }
+    }
+  },
+  update$1: function(loop) {
+    var t1, ring, t2, t3;
+    t1 = this.canvas;
+    $.set$width$x(t1, t1.clientWidth);
+    t1 = this.canvas;
+    $.set$height$x(t1, t1.clientHeight);
+    for (t1 = $.get$iterator$ax(this.rings); t1.moveNext$0();) {
+      ring = t1.get$current();
+      ring.set$radius(ring.get$radius() + ring.get$multiplier());
+      if (ring.get$multiplier() > 0) {
+        t2 = ring.get$radius();
+        t3 = ring.get$maxRadius();
+        if (t2 > t3) {
+          ring.set$radius(t3);
+          ring.set$multiplier(ring.get$multiplier() * -1);
+        }
+      } else if (ring.get$radius() < 1) {
+        ring.set$radius(1);
+        ring.set$multiplier(ring.get$multiplier() * -1);
+      }
+    }
+  },
+  get$update: function() {
+    return new $.BoundClosure$1(this, "update$1");
+  },
+  render$1: function(loop) {
+    var t1, t2, t3, ring;
+    t1 = this.context;
+    t2 = this.canvas;
+    t3 = $.getInterceptor$x(t2);
+    $.clearRect$4$x(t1, 0, 0, t3.get$width(t2), t3.get$height(t2));
+    for (t1 = $.get$iterator$ax(this.rings); t1.moveNext$0();) {
+      ring = t1.get$current();
+      t2 = $.getInterceptor$x(ring);
+      t2.set$alpha(ring, ring.get$radius() / ring.get$maxRadius());
+      $.beginPath$0$x(this.context);
+      $.arc$6$x(this.context, t2.get$x(ring), t2.get$y(ring), ring.get$radius(), 0, 6.283185307179586, false);
+      $.closePath$0$x(this.context);
+      $.setStrokeColorRgb$4$x(this.context, ring.get$red(), ring.get$green(), ring.get$blue(), t2.get$alpha(ring));
+      $.stroke$0$x(this.context);
+    }
+  },
+  get$render: function() {
+    return new $.BoundClosure$1(this, "render$1");
+  },
+  Rings$3: function(canvas, context, maxRings) {
+    var t1 = $.getInterceptor$x(canvas);
+    this.generateRings$1($.JSNumber_methods.floor$0($.$div$n($.sqrt($.$add$ns($.pow(t1.get$width(canvas), 2), $.pow(t1.get$height(canvas), 2))), 4)));
+  }
+};
+
+$$.Gallery = {"": "Object;game,canvas,context,elements,currentName,currentDescription",
+  swapTo$1: function($name) {
+    var t1, t2;
+    this.currentName = $name;
+    t1 = this.elements;
+    this.currentDescription = t1.$index(t1, $name).get$description();
+    $.setTransform$6$x(this.context, 1, 0, 0, 1, 0, 0);
+    t1 = this.game;
+    t2 = this.elements;
+    t1.onUpdate = t2.$index(t2, $name).get$update();
+    t2 = this.game;
+    t1 = this.elements;
+    t2.onRender = t1.$index(t1, $name).get$render();
+  },
+  Gallery$0: function() {
+    this.canvas = $.query("#gCanvas");
+    var t1 = this.canvas;
+    $.set$width$x(t1, t1.clientWidth);
+    t1 = this.canvas;
+    $.set$height$x(t1, t1.clientHeight);
+    this.context = $.getContext$1$x(this.canvas, "2d");
+    this.game = $.GameLoopHtml$(this.canvas);
+    this.game.handleMouseEvents = true;
+    t1 = this.game;
+    t1.start$0(t1);
+    this.elements = $.Map_Map($.JSString, $.GalleryElement);
+    t1 = this.elements;
+    t1.$indexSet(t1, "Analog Clock", $.AnalogClock$(this.canvas, this.context));
+    t1 = this.elements;
+    t1.$indexSet(t1, "Rings", $.Rings$(this.canvas, this.context, 100));
+  }
+};
+
+$$.GalleryElement = {"": "Object;description<"};
+
+$$.main_closure = {"": "Closure;",
+  call$1: function(i) {
+    return $.add$1$ax($.galleryItems, i);
+  }
+};
+
 $$.GameLoop = {"": "Object;",
   processTimers$0: function() {
     var t1, _timersLength, t2, i, lastElement;
@@ -4824,8 +4799,16 @@ $$.ButtonElement = {"": "Element;type=,value%"};
 $$.CDataSection = {"": "Text;"};
 
 $$.CanvasElement = {"": "Element;height%,width%",
-  get$context2D: function(receiver) {
-    return receiver.getContext("2d");
+  getContext$2: function(receiver, contextId, attrs) {
+    var t1 = $ === attrs;
+    if (t1)
+      attrs = null;
+    if (!t1)
+      return receiver.getContext(contextId, $.convertDartToNative_Dictionary(attrs));
+    return receiver.getContext(contextId);
+  },
+  getContext$1: function($receiver, contextId) {
+    return this.getContext$2($receiver, contextId, $);
   }
 };
 
@@ -4835,7 +4818,56 @@ $$.CanvasPattern = {"": "Interceptor;"};
 
 $$.CanvasRenderingContext = {"": "Interceptor;"};
 
-$$.CanvasRenderingContext2D = {"": "CanvasRenderingContext;"};
+$$.CanvasRenderingContext2D = {"": "CanvasRenderingContext;lineWidth}",
+  beginPath$0: function(receiver) {
+    return receiver.beginPath();
+  },
+  clearRect$4: function(receiver, x, y, width, height) {
+    return receiver.clearRect(x, y, width, height);
+  },
+  closePath$0: function(receiver) {
+    return receiver.closePath();
+  },
+  fill$1: function(receiver, winding) {
+    return receiver.fill(winding);
+  },
+  fill$0: function($receiver) {
+    return $receiver.fill();
+  },
+  lineTo$2: function(receiver, x, y) {
+    return receiver.lineTo(x, y);
+  },
+  moveTo$2: function(receiver, x, y) {
+    return receiver.moveTo(x, y);
+  },
+  restore$0: function(receiver) {
+    return receiver.restore();
+  },
+  rotate$1: function(receiver, angle) {
+    return receiver.rotate(angle);
+  },
+  save$0: function(receiver) {
+    return receiver.save();
+  },
+  setTransform$6: function(receiver, m11, m12, m21, m22, dx, dy) {
+    return receiver.setTransform(m11, m12, m21, m22, dx, dy);
+  },
+  stroke$0: function(receiver) {
+    return receiver.stroke();
+  },
+  translate$2: function(receiver, tx, ty) {
+    return receiver.translate(tx, ty);
+  },
+  setFillColorRgb$4: function(receiver, r, g, b, a) {
+    receiver.fillStyle = "rgba(" + r + ", " + g + ", " + b + ", " + a + ")";
+  },
+  setStrokeColorRgb$4: function(receiver, r, g, b, a) {
+    receiver.strokeStyle = "rgba(" + r + ", " + g + ", " + b + ", " + $.S(a) + ")";
+  },
+  arc$6: function(receiver, x, y, radius, startAngle, endAngle, anticlockwise) {
+    receiver.arc(x, y, radius, startAngle, endAngle, anticlockwise);
+  }
+};
 
 $$.CharacterData = {"": "Node;length="};
 
@@ -5787,6 +5819,8 @@ $$.OfflineAudioCompletionEvent = {"": "Event;"};
 
 $$.ContextEvent = {"": "Event;"};
 
+$$.RenderingContext = {"": "CanvasRenderingContext;"};
+
 $$.SqlError = {"": "Interceptor;"};
 
 $$.SqlException = {"": "Interceptor;"};
@@ -5803,8 +5837,6 @@ $$.BoundClosure$i1 = {"": "Closure;self,target,receiver",
     return this.self[this.target](this.receiver, p0);
   }
 };
-
-$$.Closure$main = {"": "Closure;call$0,$name"};
 
 $$.Closure$_processWorkerMessage = {"": "Closure;call$2,$name"};
 
@@ -5834,43 +5866,14 @@ $$.Closure$_determineMouseWheelEventType = {"": "Closure;call$1,$name"};
 
 $$.Closure$min = {"": "Closure;call$2,$name"};
 
+$$.Closure$main = {"": "Closure;call$0,$name"};
+
 $$.Closure$deliverChangesSync = {"": "Closure;call$0,$name"};
 
 $$.Closure$defaultObserveUnhandledError = {"": "Closure;call$4,$name"};
 
 Isolate.$finishClasses($$, $, null);
 $$ = null;
-
-$.AnalogClock$ = function(canvas, context) {
-  return new $.AnalogClock(null, null, null, 6, 6, 30, "Analog Clock", "A simple clock generated entirely with paths.", canvas, context);
-};
-
-$.Ring$ = function(x, y, radius, maxRadius, red, green, blue, alpha, multiplier) {
-  return new $.Ring(x, y, red, green, blue, radius, maxRadius, multiplier, alpha);
-};
-
-$.Rings$ = function(canvas, context, maxRings) {
-  var t1 = new $.Rings($.Random_Random(null), null, "Rings", "A particle system example.", canvas, context);
-  t1.Rings$3(canvas, context, maxRings);
-  return t1;
-};
-
-$.Gallery$ = function() {
-  var t1 = new $.Gallery(null, null, null, null, null, null);
-  t1.Gallery$0();
-  return t1;
-};
-
-$.main = function() {
-  $.gallery = $.Gallery$();
-  var t1 = $.List_List($, $.JSString);
-  t1.$builtinTypeInfo = [$.JSString];
-  $.galleryItems = $.toObservable(t1);
-  t1 = $.gallery.elements;
-  t1 = $.HashMapKeyIterable$(t1, $.getRuntimeTypeArgument(t1, t1.$asHashMap, 0));
-  t1.forEach$1(t1, new $.main_closure());
-  $.gallery.swapTo$1($.get$last$ax($.galleryItems));
-};
 
 $.Arrays_copy = function(src, srcStart, dst, dstStart, count) {
   var i, j, t1, t2, t3;
@@ -7243,7 +7246,7 @@ $.List_List$from = function(other, growable, E) {
   list.$builtinTypeInfo = [E];
   for (t1 = $.get$iterator$ax(other); t1.moveNext$0() === true;)
     list.push(t1.get$current());
-  if (growable)
+  if (growable === true)
     return list;
   $length = list.length;
   fixedList = $.List_List($length, E);
@@ -7409,6 +7412,37 @@ $._Lists_getRange$bailout = function(state0, a, start, end, accumulator) {
     accumulator.push(a[i]);
   }
   return accumulator;
+};
+
+$.AnalogClock$ = function(canvas, context) {
+  return new $.AnalogClock(null, null, null, 6, 6, 30, "Analog Clock", "A simple clock generated entirely with paths.", canvas, context);
+};
+
+$.Ring$ = function(x, y, radius, maxRadius, red, green, blue, alpha, multiplier) {
+  return new $.Ring(x, y, red, green, blue, radius, maxRadius, multiplier, alpha);
+};
+
+$.Rings$ = function(canvas, context, maxRings) {
+  var t1 = new $.Rings($.Random_Random(null), null, "Rings", "A particle system example.", canvas, context);
+  t1.Rings$3(canvas, context, maxRings);
+  return t1;
+};
+
+$.Gallery$ = function() {
+  var t1 = new $.Gallery(null, null, null, null, null, null);
+  t1.Gallery$0();
+  return t1;
+};
+
+$.main = function() {
+  $.gallery = $.Gallery$();
+  var t1 = $.List_List($, $.JSString);
+  t1.$builtinTypeInfo = [$.JSString];
+  $.galleryItems = $.toObservable(t1);
+  t1 = $.gallery.elements;
+  t1 = $.HashMapKeyIterable$(t1, $.getRuntimeTypeArgument(t1, t1.$asHashMap, 0));
+  t1.forEach$1(t1, new $.main_closure());
+  $.gallery.swapTo$1($.get$last$ax($.galleryItems));
 };
 
 $.GameLoop_timeStampToSeconds = function(timeStamp) {
@@ -7625,7 +7659,6 @@ $.setImmediate = function(callback) {
   $._NativeJsSendPort$(port, $.get$id$x($globalState.currentContext)).send$1(null);
 };
 
-$.main$closure = new $.Closure$main($.main, "main$closure");
 $.IsolateNatives__processWorkerMessage$closure = new $.Closure$_processWorkerMessage($.IsolateNatives__processWorkerMessage, "IsolateNatives__processWorkerMessage$closure");
 $.wrapException$closure = new $.Closure$wrapException($.wrapException, "wrapException$closure");
 $.DartError_toStringWrapper$closure = new $.Closure$toStringWrapper($.DartError_toStringWrapper, "DartError_toStringWrapper$closure");
@@ -7640,6 +7673,7 @@ $._asyncRunCallback$closure = new $.Closure$_asyncRunCallback($._asyncRunCallbac
 $.Comparable_compare$closure = new $.Closure$compare($.Comparable_compare, "Comparable_compare$closure");
 $.Element__determineMouseWheelEventType$closure = new $.Closure$_determineMouseWheelEventType($.Element__determineMouseWheelEventType, "Element__determineMouseWheelEventType$closure");
 $.min$closure = new $.Closure$min($.min, "min$closure");
+$.main$closure = new $.Closure$main($.main, "main$closure");
 $.deliverChangesSync$closure = new $.Closure$deliverChangesSync($.deliverChangesSync, "deliverChangesSync$closure");
 $.defaultObserveUnhandledError$closure = new $.Closure$defaultObserveUnhandledError($.defaultObserveUnhandledError, "defaultObserveUnhandledError$closure");
 Isolate.makeConstantList = function(list) {
@@ -7675,8 +7709,6 @@ $.C_CloseToken = new $.CloseToken();
 $.JSInt_methods = $.JSInt.prototype;
 $.JSArray_methods = $.JSArray.prototype;
 $.C__Random = new $._Random();
-$.gallery = null;
-$.galleryItems = null;
 $.Expando__keyCount = 0;
 $.dispatchPropertyName = null;
 $.lazyPort = null;
@@ -7686,6 +7718,8 @@ $._getTypeNameOf = null;
 $.interceptorsByTag = null;
 $.leafTags = null;
 $._callbacksAreEnqueued = false;
+$.gallery = null;
+$.galleryItems = null;
 $.Observable_$_nextHashCode = 0;
 $._activeObserver = null;
 $.circularNotifyLimit = 100;
@@ -7770,20 +7804,32 @@ $.abs$0$n = function(receiver) {
 $.add$1$ax = function(receiver, a0) {
   return $.getInterceptor$ax(receiver).add$1(receiver, a0);
 };
+$.arc$6$x = function(receiver, a0, a1, a2, a3, a4, a5) {
+  return $.getInterceptor$x(receiver).arc$6(receiver, a0, a1, a2, a3, a4, a5);
+};
+$.beginPath$0$x = function(receiver) {
+  return $.getInterceptor$x(receiver).beginPath$0(receiver);
+};
+$.clearRect$4$x = function(receiver, a0, a1, a2, a3) {
+  return $.getInterceptor$x(receiver).clearRect$4(receiver, a0, a1, a2, a3);
+};
+$.closePath$0$x = function(receiver) {
+  return $.getInterceptor$x(receiver).closePath$0(receiver);
+};
 $.compareTo$1$ns = function(receiver, a0) {
   return $.getInterceptor$ns(receiver).compareTo$1(receiver, a0);
 };
 $.elementAt$1$ax = function(receiver, a0) {
   return $.getInterceptor$ax(receiver).elementAt$1(receiver, a0);
 };
+$.fill$0$x = function(receiver) {
+  return $.getInterceptor$x(receiver).fill$0(receiver);
+};
 $.forEach$1$ax = function(receiver, a0) {
   return $.getInterceptor$ax(receiver).forEach$1(receiver, a0);
 };
 $.get$changedTouches$x = function(receiver) {
   return $.getInterceptor$x(receiver).get$changedTouches(receiver);
-};
-$.get$context2D$x = function(receiver) {
-  return $.getInterceptor$x(receiver).get$context2D(receiver);
 };
 $.get$hashCode$ = function(receiver) {
   return $.getInterceptor(receiver).get$hashCode(receiver);
@@ -7833,20 +7879,41 @@ $.get$x$x = function(receiver) {
 $.get$y$x = function(receiver) {
   return $.getInterceptor$x(receiver).get$y(receiver);
 };
+$.getContext$1$x = function(receiver, a0) {
+  return $.getInterceptor$x(receiver).getContext$1(receiver, a0);
+};
+$.lineTo$2$x = function(receiver, a0, a1) {
+  return $.getInterceptor$x(receiver).lineTo$2(receiver, a0, a1);
+};
+$.moveTo$2$x = function(receiver, a0, a1) {
+  return $.getInterceptor$x(receiver).moveTo$2(receiver, a0, a1);
+};
 $.preventDefault$0$x = function(receiver) {
   return $.getInterceptor$x(receiver).preventDefault$0(receiver);
 };
 $.register$2$x = function(receiver, a0, a1) {
   return $.getInterceptor$x(receiver).register$2(receiver, a0, a1);
 };
+$.restore$0$x = function(receiver) {
+  return $.getInterceptor$x(receiver).restore$0(receiver);
+};
+$.rotate$1$x = function(receiver, a0) {
+  return $.getInterceptor$x(receiver).rotate$1(receiver, a0);
+};
 $.round$0$nx = function(receiver) {
   return $.getInterceptor$nx(receiver).round$0(receiver);
+};
+$.save$0$x = function(receiver) {
+  return $.getInterceptor$x(receiver).save$0(receiver);
 };
 $.set$height$x = function(receiver, value) {
   return $.getInterceptor$x(receiver).set$height(receiver, value);
 };
 $.set$left$x = function(receiver, value) {
   return $.getInterceptor$x(receiver).set$left(receiver, value);
+};
+$.set$lineWidth$x = function(receiver, value) {
+  return $.getInterceptor$x(receiver).set$lineWidth(receiver, value);
 };
 $.set$right$x = function(receiver, value) {
   return $.getInterceptor$x(receiver).set$right(receiver, value);
@@ -7857,6 +7924,18 @@ $.set$value$x = function(receiver, value) {
 $.set$width$x = function(receiver, value) {
   return $.getInterceptor$x(receiver).set$width(receiver, value);
 };
+$.setFillColorRgb$4$x = function(receiver, a0, a1, a2, a3) {
+  return $.getInterceptor$x(receiver).setFillColorRgb$4(receiver, a0, a1, a2, a3);
+};
+$.setStrokeColorRgb$4$x = function(receiver, a0, a1, a2, a3) {
+  return $.getInterceptor$x(receiver).setStrokeColorRgb$4(receiver, a0, a1, a2, a3);
+};
+$.setTransform$6$x = function(receiver, a0, a1, a2, a3, a4, a5) {
+  return $.getInterceptor$x(receiver).setTransform$6(receiver, a0, a1, a2, a3, a4, a5);
+};
+$.stroke$0$x = function(receiver) {
+  return $.getInterceptor$x(receiver).stroke$0(receiver);
+};
 $.sublist$1$ax = function(receiver, a0) {
   return $.getInterceptor$ax(receiver).sublist$1(receiver, a0);
 };
@@ -7865,6 +7944,9 @@ $.toDouble$0$n = function(receiver) {
 };
 $.toString$0 = function(receiver) {
   return $.getInterceptor(receiver).toString$0(receiver);
+};
+$.translate$2$x = function(receiver, a0, a1) {
+  return $.getInterceptor$x(receiver).translate$2(receiver, a0, a1);
 };
 $.getInterceptor = function(receiver) {
   if (typeof receiver == "number") {
@@ -8463,6 +8545,8 @@ $.defineNativeMethods("AudioProcessingEvent", $.AudioProcessingEvent);
 $.defineNativeMethods("OfflineAudioCompletionEvent", $.OfflineAudioCompletionEvent);
 
 $.defineNativeMethods("WebGLContextEvent", $.ContextEvent);
+
+$.defineNativeMethods("WebGLRenderingContext", $.RenderingContext);
 
 $.defineNativeMethods("SQLError", $.SqlError);
 
