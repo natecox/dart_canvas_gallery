@@ -4228,3 +4228,10 @@ build.dart --machine --changed=web/out/index.html --changed=web/out/index.html_b
 Total time                                                   --  28 ms
 build.dart finished [564 ms]
 
+---
+build.dart --machine --full
+Unable to open file: /home/tsuujin/git/dcg/master/packages/web_ui/component_build.dart'file:///home/tsuujin/git/dcg/master/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [61 ms]
+
